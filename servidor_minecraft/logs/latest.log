@@ -1,35 +1,271 @@
-[02:39:34] [ServerMain/WARN]: You specified a resource pack without providing a sha1 hash. Pack will be updated on the client only if you change the name of the pack.
-[02:39:34] [ServerMain/WARN]: Failed to parse '8db675441cd067ce4d3558e83bb5807cde31b431' into UUID
-[02:39:35] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[02:39:37] [ServerMain/INFO]: Loaded 1290 recipes
-[02:39:37] [ServerMain/INFO]: Loaded 1399 advancements
-[02:39:37] [Server thread/INFO]: Starting minecraft server version 1.21
-[02:39:37] [Server thread/INFO]: Loading properties
-[02:39:37] [Server thread/INFO]: This server is running Paper version 1.21-38-master@1f5db50 (2024-06-27T20:15:58Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
-[02:39:38] [Server thread/INFO]: Using 4 threads for Netty based IO
-[02:39:38] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[02:39:38] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[21:05:48] [ServerMain/WARN]: You specified a resource pack without providing a sha1 hash. Pack will be updated on the client only if you change the name of the pack.
+[21:05:48] [ServerMain/WARN]: Failed to parse '8db675441cd067ce4d3558e83bb5807cde31b431' into UUID
+[21:05:48] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[21:05:49] [ServerMain/INFO]: Loaded 1290 recipes
+[21:05:50] [ServerMain/INFO]: Loaded 1399 advancements
+[21:05:50] [Server thread/INFO]: Starting minecraft server version 1.21
+[21:05:50] [Server thread/INFO]: Loading properties
+[21:05:50] [Server thread/INFO]: This server is running Paper version 1.21-38-master@1f5db50 (2024-06-27T20:15:58Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[21:05:51] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:05:51] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:05:51] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[02:39:38] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[02:39:38] [Server thread/INFO]: Default game type: SURVIVAL
-[02:39:38] [Server thread/INFO]: Generating keypair
-[02:39:39] [Server thread/INFO]: Starting Minecraft server on *:25565
-[02:39:39] [Server thread/INFO]: Using epoll channel type
-[02:39:39] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[02:39:39] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[02:39:39] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
-[02:39:39] [Server thread/WARN]: The exception was: io.netty.channel.unix.Errors$NativeIoException: bind(..) failed: Address already in use
-[02:39:39] [Server thread/WARN]: Perhaps a server is already running on that port?
-[02:39:39] [Server thread/ERROR]: Encountered an unexpected exception
-java.lang.IllegalStateException: Failed to bind to port
-	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:284) ~[paper-1.21.jar:1.21-38-1f5db50]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1157) ~[paper-1.21.jar:1.21-38-1f5db50]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[paper-1.21.jar:1.21-38-1f5db50]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-Caused by: io.netty.channel.unix.Errors$NativeIoException: bind(..) failed: Address already in use
-[02:39:39] [Server thread/ERROR]: This crash report has been saved to: /workspaces/TrikiTraka-3/servidor_minecraft/crash-reports/crash-2024-11-27_02.39.39-server.txt
-[02:39:39] [Server thread/INFO]: Stopping server
-[02:39:39] [Server thread/INFO]: Saving players
-[02:39:39] [Server thread/INFO]: Saving worlds
-[02:39:39] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21:05:51] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[21:05:51] [Server thread/INFO]: Default game type: SURVIVAL
+[21:05:51] [Server thread/INFO]: Generating keypair
+[21:05:51] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:05:51] [Server thread/INFO]: Using epoll channel type
+[21:05:51] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[21:05:51] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[21:05:52] [Server thread/INFO]: [SpigotLibraryLoader] [UltraCosmetics] Loading 6 libraries... please wait
+[21:05:52] [Server thread/INFO]: [SpigotLibraryLoader] [UltraCosmetics] Loaded library /workspaces/TrikiTraka-3/servidor_minecraft/libraries/com/github/cryptomorin/XSeries/11.0.0/XSeries-11.0.0.jar
+[21:05:52] [Server thread/INFO]: [SpigotLibraryLoader] [UltraCosmetics] Loaded library /workspaces/TrikiTraka-3/servidor_minecraft/libraries/com/zaxxer/HikariCP/5.1.0/HikariCP-5.1.0.jar
+[21:05:52] [Server thread/INFO]: [SpigotLibraryLoader] [UltraCosmetics] Loaded library /workspaces/TrikiTraka-3/servidor_minecraft/libraries/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar
+[21:05:52] [Server thread/INFO]: [SpigotLibraryLoader] [UltraCosmetics] Loaded library /workspaces/TrikiTraka-3/servidor_minecraft/libraries/net/kyori/adventure-text-minimessage/4.17.0/adventure-text-minimessage-4.17.0.jar
+[21:05:52] [Server thread/INFO]: [SpigotLibraryLoader] [UltraCosmetics] Loaded library /workspaces/TrikiTraka-3/servidor_minecraft/libraries/net/kyori/adventure-platform-bukkit/4.3.3/adventure-platform-bukkit-4.3.3.jar
+[21:05:52] [Server thread/INFO]: [SpigotLibraryLoader] [UltraCosmetics] Loaded library /workspaces/TrikiTraka-3/servidor_minecraft/libraries/net/kyori/adventure-platform-api/4.3.3/adventure-platform-api-4.3.3.jar
+[21:05:52] [Server thread/INFO]: [SpigotLibraryLoader] [UltraCosmetics] Loaded library /workspaces/TrikiTraka-3/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.3/adventure-text-serializer-bungeecord-4.3.3.jar
+[21:05:52] [Server thread/INFO]: [SpigotLibraryLoader] [UltraCosmetics] Loaded library /workspaces/TrikiTraka-3/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.jar
+[21:05:52] [Server thread/INFO]: [SpigotLibraryLoader] [UltraCosmetics] Loaded library /workspaces/TrikiTraka-3/servidor_minecraft/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
+[21:05:52] [Server thread/INFO]: [SpigotLibraryLoader] [UltraCosmetics] Loaded library /workspaces/TrikiTraka-3/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.13.1/adventure-text-serializer-gson-4.13.1.jar
+[21:05:52] [Server thread/INFO]: [SpigotLibraryLoader] [UltraCosmetics] Loaded library /workspaces/TrikiTraka-3/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
+[21:05:52] [Server thread/INFO]: [SpigotLibraryLoader] [UltraCosmetics] Loaded library /workspaces/TrikiTraka-3/servidor_minecraft/libraries/net/kyori/adventure-platform-facet/4.3.3/adventure-platform-facet-4.3.3.jar
+[21:05:52] [Server thread/INFO]: [SpigotLibraryLoader] [UltraCosmetics] Loaded library /workspaces/TrikiTraka-3/servidor_minecraft/libraries/net/kyori/adventure-platform-viaversion/4.3.3/adventure-platform-viaversion-4.3.3.jar
+[21:05:52] [Server thread/INFO]: [SpigotLibraryLoader] [UltraCosmetics] Loaded library /workspaces/TrikiTraka-3/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-plain/4.17.0/adventure-text-serializer-plain-4.17.0.jar
+[21:05:52] [Server thread/INFO]: [SpigotLibraryLoader] [UltraCosmetics] Loaded library /workspaces/TrikiTraka-3/servidor_minecraft/libraries/net/kyori/adventure-api/4.17.0/adventure-api-4.17.0.jar
+[21:05:52] [Server thread/INFO]: [SpigotLibraryLoader] [UltraCosmetics] Loaded library /workspaces/TrikiTraka-3/servidor_minecraft/libraries/net/kyori/adventure-key/4.17.0/adventure-key-4.17.0.jar
+[21:05:52] [Server thread/INFO]: [SpigotLibraryLoader] [UltraCosmetics] Loaded library /workspaces/TrikiTraka-3/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[21:05:52] [Server thread/INFO]: [SpigotLibraryLoader] [UltraCosmetics] Loaded library /workspaces/TrikiTraka-3/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[21:05:52] [Server thread/INFO]: [SpigotLibraryLoader] [UltraCosmetics] Loaded library /workspaces/TrikiTraka-3/servidor_minecraft/libraries/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar
+[21:05:52] [Server thread/INFO]: [Minepacks] PCGF-PluginLib not installed. Switching to standalone mode!
+[21:05:52] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.134
+[21:05:52] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[21:05:52] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+93-3a6fdd9
+[21:05:52] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b109-49bd564)
+[21:05:55] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[21:05:55] [Server thread/INFO]: [floodgate] Took 2,566ms to boot Floodgate
+[21:05:55] [Server thread/INFO]: [BetterSleeping4] Loading server plugin BetterSleeping4 v4.0.2
+[21:05:55] [Server thread/INFO]: [UltraCosmetics] Loading server plugin UltraCosmetics v3.6.0.1-RELEASE
+[21:05:55] [Server thread/INFO]: [RedProtect] Loading server plugin RedProtect v8.1.1-SNAPSHOT
+[21:05:55] [Server thread/INFO]: [TAB] Loading server plugin TAB v4.1.6
+[21:05:55] [Server thread/INFO]: [ItemSlotMachine] Loading server plugin ItemSlotMachine v1.4.3
+[21:05:55] [Server thread/INFO]: [DriveBackupV2] Loading server plugin DriveBackupV2 v1.6.3
+[21:05:55] [Server thread/INFO]: [Minepacks] Loading server plugin Minepacks v2.4.31.4-T20240629215752
+[21:05:55] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.4.4
+[21:05:55] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.0-dev+93-3a6fdd9
+[21:05:55] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.10
+[21:05:55] [Server thread/INFO]: [LoginSecurity] Loading server plugin LoginSecurity v3.3.0
+[21:05:55] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:05:55] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.134
+[21:05:55] [Server thread/INFO]:         __    
+[21:05:55] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.134
+[21:05:55] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[21:05:55] [Server thread/INFO]: 
+[21:05:55] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[21:05:56] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[21:05:56] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[21:05:56] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[21:05:57] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1784ms)
+[21:05:57] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[21:05:57] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[21:05:57] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[21:05:57] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[21:05:57] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[21:05:57] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.4.4
+[21:05:58] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[21:05:59] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.0.
+[21:05:59] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
+[21:06:00] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[21:06:00] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:06:00] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:06:00] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:06:00] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:06:00] [Server thread/INFO]: Preparing level "world"
+[21:06:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[21:06:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[21:06:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[21:06:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[21:06:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[21:06:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[21:06:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[21:06:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.4.4
+[21:06:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: dc501c7
+[21:06:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[21:06:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[21:06:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[21:06:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[21:06:00] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:06:01] [Server thread/INFO]: Time elapsed: 1117 ms
+[21:06:01] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[21:06:02] [Server thread/INFO]: Time elapsed: 246 ms
+[21:06:02] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[21:06:02] [Server thread/INFO]: Time elapsed: 127 ms
+[21:06:02] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+93-3a6fdd9
+[21:06:02] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[21:06:03] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[21:06:03] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[21:06:03] [Server thread/INFO]: [Essentials] Loaded 39121 items from items.json.
+[21:06:03] [Server thread/INFO]: [Essentials] Using locale en
+[21:06:03] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[21:06:04] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[21:06:04] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[21:06:04] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[21:06:04] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b109-49bd564)
+[21:06:04] [Server thread/INFO]: [BetterSleeping4] Enabling BetterSleeping4 v4.0.2
+[21:06:05] [Server thread/INFO]: [UltraCosmetics] Enabling UltraCosmetics v3.6.0.1-RELEASE
+[21:06:06] [Server thread/INFO]: [UltraCosmetics] Checking for update...
+[21:06:06] [Server thread/INFO]: [UltraCosmetics] -------------------------------------------------------------------
+[21:06:06] [Server thread/INFO]: [UltraCosmetics] Thanks for using UltraCosmetics! Version: 3.6.0.1-RELEASE (commit f734193)
+[21:06:06] [Server thread/INFO]: [UltraCosmetics] Plugin by Datatags. Original Author: iSach
+[21:06:06] [Server thread/INFO]: [UltraCosmetics] Link: https://bit.ly/UltraCosmetics
+[21:06:06] [Server thread/INFO]: [UltraCosmetics] 
+[21:06:06] [Server thread/WARN]: [UltraCosmetics] This server version is unknown (1.21), but UltraCosmetics will try to continue running.
+[21:06:06] [Server thread/INFO]: [UltraCosmetics] Initializing module NEW (expected version: ???)
+[21:06:06] [Server thread/INFO]: [UltraCosmetics] Loading NMS-less mode...
+[21:06:06] [Server thread/INFO]: [UltraCosmetics] Loaded NMS-less mode
+[21:06:06] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[21:06:07] [Server thread/INFO]: [UltraCosmetics] 
+[21:06:07] [Server thread/WARN]: [UltraCosmetics] Morphs require Lib's Disguises, but it is not installed. Morphs will be disabled.
+[21:06:07] [Server thread/INFO]: [UltraCosmetics] 
+[21:06:07] [Server thread/INFO]: [UltraCosmetics] Hooked into Vault:EssentialsX Economy for economy.
+[21:06:07] [Server thread/INFO]: [UltraCosmetics] 
+[21:06:07] [Server thread/INFO]: [UltraCosmetics] 
+[21:06:07] [Server thread/INFO]: [UltraCosmetics] UltraCosmetics successfully finished loading in 1728ms!
+[21:06:07] [Server thread/INFO]: [UltraCosmetics] -------------------------------------------------------------------
+[21:06:07] [Server thread/INFO]: [RedProtect] Enabling RedProtect v8.1.1-SNAPSHOT
+[21:06:08] [Server thread/INFO]: [RedProtect] Server version: 1.21-R0.1-SNAPSHOT
+[21:06:08] [Server thread/INFO]: [RedProtect] All configurations loaded!
+[21:06:08] [Server thread/INFO]: [RedProtect] Language file loaded - Using: EN-US
+[21:06:08] [Server thread/INFO]: [RedProtect] Registering commands...
+[21:06:08] [Server thread/INFO]: [RedProtect] Registering listeners...
+[21:06:08] [Server thread/INFO]: [RedProtect] Vault Economy found. Hooked.
+[21:06:08] [Server thread/INFO]: [RedProtect] Vault Permissions found. Hooked.
+[21:06:08] [Server thread/INFO]: [RedProtect] Essentials found. Hooked.
+[21:06:08] [Server thread/INFO]: [RedProtect] - Loading world's regions...
+[21:06:08] [Server thread/INFO]: [RedProtect] - Loading world_nether's regions...
+[21:06:08] [Server thread/INFO]: [RedProtect] - Loading world_the_end's regions...
+[21:06:08] [Server thread/INFO]: [RedProtect] Auto-save Scheduler: Saving file database every 60 minutes!
+[21:06:08] [Server thread/INFO]: [RedProtect] There are 0 regions on (file) database!
+[21:06:08] [Server thread/INFO]: [RedProtect] Helper version: Latest
+[21:06:08] [Server thread/INFO]: [RedProtect] Loading GuiFlags for 1.14+
+[21:06:08] [Server thread/INFO]: [RedProtect] Metrics enabled! See our stats here: https://bstats.org/plugin/bukkit/RedProtect
+[21:06:08] [Server thread/INFO]: [RedProtect] Loading API...
+[21:06:08] [Server thread/INFO]: [RedProtect] API Loaded!
+[21:06:08] [Server thread/INFO]:  _   _  _   _   _   _  _ _  _  _ _ _  _
+[21:06:08] [Server thread/INFO]: |_| |_ | \ |_| |_| | |  |  |_ |   |  |_|
+[21:06:08] [Server thread/INFO]: | \ |_ |_/ |   | \ |_|  |  |_ |_  |  |_|
+[21:06:08] [Server thread/INFO]: » RedProtect v8.1.1-SNAPSHOT enabled
+[21:06:08] [Server thread/INFO]: 
+[21:06:08] [Server thread/INFO]: [TAB] Enabling TAB v4.1.6
+[21:06:09] [Server thread/INFO]: [TAB] Loaded NMS hook in 111ms
+[21:06:09] [Server thread/INFO]: [TAB] Enabled in 456ms
+[21:06:09] [Server thread/INFO]: [ItemSlotMachine] Enabling ItemSlotMachine v1.4.3
+[21:06:09] [Server thread/INFO]: [ItemSlotMachine] Invalid material name in setting design.space-check.ignored-types.
+[21:06:09] [Server thread/INFO]: [ItemSlotMachine] Vault hooked, money distribution is active.
+[21:06:09] [Server thread/INFO]: [ItemSlotMachine] Language en-US loaded.
+[21:06:09] [Server thread/INFO]: [ItemSlotMachine] 1 design loaded.
+[21:06:09] [Server thread/INFO]: [ItemSlotMachine] 0 slot machines loaded.
+[21:06:09] [Server thread/INFO]: [ItemSlotMachine] Statistics successfully loaded.
+[21:06:09] [Server thread/INFO]: [ItemSlotMachine] This plugin is using Metrics by BtoBastian.
+[21:06:09] [Server thread/INFO]: [ItemSlotMachine] Version 1.4.3 loaded. (139 ms)
+[21:06:09] [Server thread/INFO]: [DriveBackupV2] Enabling DriveBackupV2 v1.6.3
+[21:06:11] [Server thread/INFO]: [Aventura Triki Traka] Config loaded!
+[21:06:11] [Server thread/INFO]: [Aventura Triki Traka] Scheduling a backup to run every 20 minutes
+[21:06:11] [Server thread/INFO]: [Aventura Triki Traka] Metrics started
+[21:06:11] [Server thread/INFO]: [Minepacks] Enabling Minepacks v2.4.31.4-T20240629215752
+[21:06:11] [Server thread/INFO]: [Minepacks] Starting Minepacks in standalone mode!
+[21:06:11] [Server thread/INFO]: [Minepacks] Config file successfully loaded.
+[21:06:11] [Server thread/WARN]: [Minepacks] Paper support is experimental! Use at your own risk!
+[21:06:11] [Server thread/WARN]: [Minepacks] No guarantee for data integrity! Backup constantly!
+[21:06:12] [Server thread/INFO]: [Minepacks] Language file successfully loaded. Language: es_es  Author: ThatOverPowered & PostBoxRetinal
+[21:06:12] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Starting...
+[21:06:12] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Start completed.
+[21:06:12] [Server thread/INFO]: [Minepacks] Item name language file successfully loaded. Language: english  Author: GeorgH93
+[21:06:12] [Server thread/INFO]: [Minepacks] Loading item translations ...
+[21:06:12] [Server thread/INFO]: [Minepacks] Finished loading item translations for 826 items.
+[21:06:12] [Server thread/INFO]: [Minepacks]  Minepacks has been enabled!  :) 
+[21:06:12] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.0-dev+93-3a6fdd9
+[21:06:12] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[21:06:12] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.10
+[21:06:12] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.3.0
+[21:06:12] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[21:06:12] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[21:06:12] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[21:06:12] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[21:06:12] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
+[21:06:12] [Server thread/INFO]: Running delayed init tasks
+[21:06:12] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[21:06:12] [Server thread/INFO]: Done (22.214s)! For help, type "help"
+[21:06:12] [Server thread/INFO]: Timings Reset
+[21:06:12] [Craft Scheduler Thread - 1 - DriveBackupV2/INFO]: [Aventura Triki Traka] Checking for updates...
+[21:06:12] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Fetching version information...
+[21:06:12] [Craft Scheduler Thread - 0 - ItemSlotMachine/INFO]: [ItemSlotMachine] There is no update available.
+[21:06:12] [Craft Scheduler Thread - 0 - Vault/INFO]: [Vault] Checking for Updates ... 
+[21:06:13] [Craft Scheduler Thread - 0 - Vault/INFO]: [Vault] No new version available
+[21:06:13] [Craft Scheduler Thread - 3 - Essentials/WARN]: [Essentials] You're 52 EssentialsX dev build(s) out of date!
+[21:06:13] [Craft Scheduler Thread - 3 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[21:06:13] [Craft Scheduler Thread - 2 - UltraCosmetics/INFO]: [UltraCosmetics] New version available on Spigot: 3.9
+[21:06:13] [Craft Scheduler Thread - 1 - DriveBackupV2/INFO]: [Aventura Triki Traka] DriveBackup version 1.8.0 has been released, You are currently running version 1.6.3
+Update at: http://bit.ly/2VGtF7L" or with /drivebackup update
+[21:09:30] [User Authenticator #0/INFO]: UUID of player Ranpool201 is b5e9f71d-a66c-3166-9e27-1de5e6b54795
+[21:09:32] [Server thread/INFO]: [Aventura Triki Traka] Enabling automatic backups
+[21:09:32] [Server thread/INFO]: Ranpool201 joined the game
+[21:09:32] [Server thread/INFO]: Ranpool201[/127.8.136.234:54335] logged in with entity id 19 at ([world]-221.57364975825627, 91.0, -1881.020626880272)
+[21:10:09] [Server thread/INFO]: Ranpool201 lost connection: Disconnected
+[21:10:09] [Server thread/INFO]: Ranpool201 left the game
+[21:10:30] [Server thread/INFO]: Stopping the server
+[21:10:30] [Server thread/INFO]: Stopping server
+[21:10:30] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.3.0
+[21:10:30] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
+[21:10:30] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
+[21:10:30] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.10
+[21:10:30] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.21.0-dev+93-3a6fdd9
+[21:10:30] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.4.4
+[21:10:30] [Server thread/INFO]: [Minepacks] Disabling Minepacks v2.4.31.4-T20240629215752
+[21:10:31] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Shutdown initiated...
+[21:10:31] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Shutdown completed.
+[21:10:31] [Server thread/INFO]: [Minepacks]  Minepacks has been disabled.  :( 
+[21:10:31] [Server thread/INFO]: [DriveBackupV2] Disabling DriveBackupV2 v1.6.3
+[21:10:31] [Server thread/INFO]: [Aventura Triki Traka] Stopping plugin!
+[21:10:31] [Server thread/INFO]: [ItemSlotMachine] Disabling ItemSlotMachine v1.4.3
+[21:10:31] [Server thread/INFO]: [ItemSlotMachine] Version 1.4.3 disabled.
+[21:10:31] [Server thread/INFO]: [TAB] Disabling TAB v4.1.6
+[21:10:31] [Server thread/INFO]: [TAB] Disabled in 1ms
+[21:10:31] [Server thread/INFO]: [RedProtect] Disabling RedProtect v8.1.1-SNAPSHOT
+[21:10:31] [Server thread/INFO]: [RedProtect] Saving world's regions...
+[21:10:31] [Server thread/INFO]: [RedProtect] Saving world_the_end's regions...
+[21:10:31] [Server thread/INFO]: [RedProtect] Saving world_nether's regions...
+[21:10:31] [Server thread/INFO]: [RedProtect] Unregistering listeners...
+[21:10:31] [Server thread/INFO]: [RedProtect] RedProtect v8.1.1-SNAPSHOT turned off...
+[21:10:31] [Server thread/INFO]: [UltraCosmetics] Disabling UltraCosmetics v3.6.0.1-RELEASE
+[21:10:31] [Server thread/INFO]: [BetterSleeping4] Disabling BetterSleeping4 v4.0.2
+[21:10:31] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.3-SNAPSHOT (b109-49bd564)
+[21:10:31] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+93-3a6fdd9
+[21:10:31] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[21:10:31] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[21:10:31] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.134
+[21:10:31] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[21:10:31] [Server thread/INFO]: [LuckPerms] Closing storage...
+[21:10:31] [Server thread/INFO]: [LuckPerms] Goodbye!
+[21:10:31] [Server thread/INFO]: Saving players
+[21:10:31] [Server thread/INFO]: Saving worlds
+[21:10:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21:10:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[21:10:31] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[21:10:31] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[21:10:31] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world' in 0.15s
+[21:10:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[21:10:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[21:10:31] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[21:10:31] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[21:10:31] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.25s
+[21:10:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[21:10:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[21:10:32] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[21:10:32] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[21:10:32] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.12s
+[21:10:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:10:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:10:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:10:32] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
