@@ -1,0 +1,18 @@
+[
+  {
+    "uuid": "50d2a333-8bdd-3686-bd1f-a0cbb04e3b7a",
+    "name": "127.42.226.150:51347",
+    "created": "2024-11-02 17:40:06 +0000",
+    "source": "Console",
+    "expires": "forever",
+    "reason": "The Ban Hammer has spoken!"
+  },
+  {
+    "uuid": "557b9884-7574-3c5e-9305-fc9af7dfa977",
+    "name": "BabyAvocado",
+    "created": "2024-11-02 17:40:39 +0000",
+    "source": "Console",
+    "expires": "forever",
+    "reason": "The Ban Hammer has spoken!"
+  }
+]

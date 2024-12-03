@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.238.28.242
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1719976939529
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1724379377569
+  login: 1724378148508
+money: '0'
+last-account-name: Camiilo_
+logoutlocation:
+  world: a9dbf062-2fcf-4d3a-971e-c5a78dde7393
+  world-name: world
+  x: -485.47154727492625
+  y: 86.0
+  z: -1296.0855725394642
+  yaw: 44.816162109375
+  pitch: 10.216944694519043
+lastlocation:
+  world: a9dbf062-2fcf-4d3a-971e-c5a78dde7393
+  world-name: world
+  x: 494.9681010480396
+  y: 70.0
+  z: -1909.5507313730602
+  yaw: 54.183189392089844
+  pitch: -4.477376461029053

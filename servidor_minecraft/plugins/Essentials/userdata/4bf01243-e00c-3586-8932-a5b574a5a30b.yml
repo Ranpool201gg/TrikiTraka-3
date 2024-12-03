@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1%0
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1729223966547
+  login: 1729218169631
+money: '0'
+last-account-name: Ledacar
+logoutlocation:
+  world: a9dbf062-2fcf-4d3a-971e-c5a78dde7393
+  world-name: world
+  x: -303.1861411357099
+  y: 112.0
+  z: -1192.7214352319124
+  yaw: 113.54620361328125
+  pitch: 10.901123046875
+lastlocation:
+  world: a9dbf062-2fcf-4d3a-971e-c5a78dde7393
+  world-name: world
+  x: -323.8868346454
+  y: 111.5
+  z: -1224.7656635276735
+  yaw: -163.87193298339844
+  pitch: -2.5962369441986084
