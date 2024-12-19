@@ -1,271 +1,572 @@
-[21:05:48] [ServerMain/WARN]: You specified a resource pack without providing a sha1 hash. Pack will be updated on the client only if you change the name of the pack.
-[21:05:48] [ServerMain/WARN]: Failed to parse '8db675441cd067ce4d3558e83bb5807cde31b431' into UUID
-[21:05:48] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[21:05:49] [ServerMain/INFO]: Loaded 1290 recipes
-[21:05:50] [ServerMain/INFO]: Loaded 1399 advancements
-[21:05:50] [Server thread/INFO]: Starting minecraft server version 1.21
-[21:05:50] [Server thread/INFO]: Loading properties
-[21:05:50] [Server thread/INFO]: This server is running Paper version 1.21-38-master@1f5db50 (2024-06-27T20:15:58Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
-[21:05:51] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[21:05:51] [Server thread/INFO]: Using 4 threads for Netty based IO
-[21:05:51] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
-    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
-    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[21:05:51] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[21:05:51] [Server thread/INFO]: Default game type: SURVIVAL
-[21:05:51] [Server thread/INFO]: Generating keypair
-[21:05:51] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:05:51] [Server thread/INFO]: Using epoll channel type
-[21:05:51] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[21:05:51] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[21:05:52] [Server thread/INFO]: [SpigotLibraryLoader] [UltraCosmetics] Loading 6 libraries... please wait
-[21:05:52] [Server thread/INFO]: [SpigotLibraryLoader] [UltraCosmetics] Loaded library /workspaces/TrikiTraka-3/servidor_minecraft/libraries/com/github/cryptomorin/XSeries/11.0.0/XSeries-11.0.0.jar
-[21:05:52] [Server thread/INFO]: [SpigotLibraryLoader] [UltraCosmetics] Loaded library /workspaces/TrikiTraka-3/servidor_minecraft/libraries/com/zaxxer/HikariCP/5.1.0/HikariCP-5.1.0.jar
-[21:05:52] [Server thread/INFO]: [SpigotLibraryLoader] [UltraCosmetics] Loaded library /workspaces/TrikiTraka-3/servidor_minecraft/libraries/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar
-[21:05:52] [Server thread/INFO]: [SpigotLibraryLoader] [UltraCosmetics] Loaded library /workspaces/TrikiTraka-3/servidor_minecraft/libraries/net/kyori/adventure-text-minimessage/4.17.0/adventure-text-minimessage-4.17.0.jar
-[21:05:52] [Server thread/INFO]: [SpigotLibraryLoader] [UltraCosmetics] Loaded library /workspaces/TrikiTraka-3/servidor_minecraft/libraries/net/kyori/adventure-platform-bukkit/4.3.3/adventure-platform-bukkit-4.3.3.jar
-[21:05:52] [Server thread/INFO]: [SpigotLibraryLoader] [UltraCosmetics] Loaded library /workspaces/TrikiTraka-3/servidor_minecraft/libraries/net/kyori/adventure-platform-api/4.3.3/adventure-platform-api-4.3.3.jar
-[21:05:52] [Server thread/INFO]: [SpigotLibraryLoader] [UltraCosmetics] Loaded library /workspaces/TrikiTraka-3/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.3/adventure-text-serializer-bungeecord-4.3.3.jar
-[21:05:52] [Server thread/INFO]: [SpigotLibraryLoader] [UltraCosmetics] Loaded library /workspaces/TrikiTraka-3/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.jar
-[21:05:52] [Server thread/INFO]: [SpigotLibraryLoader] [UltraCosmetics] Loaded library /workspaces/TrikiTraka-3/servidor_minecraft/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
-[21:05:52] [Server thread/INFO]: [SpigotLibraryLoader] [UltraCosmetics] Loaded library /workspaces/TrikiTraka-3/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.13.1/adventure-text-serializer-gson-4.13.1.jar
-[21:05:52] [Server thread/INFO]: [SpigotLibraryLoader] [UltraCosmetics] Loaded library /workspaces/TrikiTraka-3/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
-[21:05:52] [Server thread/INFO]: [SpigotLibraryLoader] [UltraCosmetics] Loaded library /workspaces/TrikiTraka-3/servidor_minecraft/libraries/net/kyori/adventure-platform-facet/4.3.3/adventure-platform-facet-4.3.3.jar
-[21:05:52] [Server thread/INFO]: [SpigotLibraryLoader] [UltraCosmetics] Loaded library /workspaces/TrikiTraka-3/servidor_minecraft/libraries/net/kyori/adventure-platform-viaversion/4.3.3/adventure-platform-viaversion-4.3.3.jar
-[21:05:52] [Server thread/INFO]: [SpigotLibraryLoader] [UltraCosmetics] Loaded library /workspaces/TrikiTraka-3/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-plain/4.17.0/adventure-text-serializer-plain-4.17.0.jar
-[21:05:52] [Server thread/INFO]: [SpigotLibraryLoader] [UltraCosmetics] Loaded library /workspaces/TrikiTraka-3/servidor_minecraft/libraries/net/kyori/adventure-api/4.17.0/adventure-api-4.17.0.jar
-[21:05:52] [Server thread/INFO]: [SpigotLibraryLoader] [UltraCosmetics] Loaded library /workspaces/TrikiTraka-3/servidor_minecraft/libraries/net/kyori/adventure-key/4.17.0/adventure-key-4.17.0.jar
-[21:05:52] [Server thread/INFO]: [SpigotLibraryLoader] [UltraCosmetics] Loaded library /workspaces/TrikiTraka-3/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
-[21:05:52] [Server thread/INFO]: [SpigotLibraryLoader] [UltraCosmetics] Loaded library /workspaces/TrikiTraka-3/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
-[21:05:52] [Server thread/INFO]: [SpigotLibraryLoader] [UltraCosmetics] Loaded library /workspaces/TrikiTraka-3/servidor_minecraft/libraries/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar
-[21:05:52] [Server thread/INFO]: [Minepacks] PCGF-PluginLib not installed. Switching to standalone mode!
-[21:05:52] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.134
-[21:05:52] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[21:05:52] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+93-3a6fdd9
-[21:05:52] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b109-49bd564)
-[21:05:55] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[21:05:55] [Server thread/INFO]: [floodgate] Took 2,566ms to boot Floodgate
-[21:05:55] [Server thread/INFO]: [BetterSleeping4] Loading server plugin BetterSleeping4 v4.0.2
-[21:05:55] [Server thread/INFO]: [UltraCosmetics] Loading server plugin UltraCosmetics v3.6.0.1-RELEASE
-[21:05:55] [Server thread/INFO]: [RedProtect] Loading server plugin RedProtect v8.1.1-SNAPSHOT
-[21:05:55] [Server thread/INFO]: [TAB] Loading server plugin TAB v4.1.6
-[21:05:55] [Server thread/INFO]: [ItemSlotMachine] Loading server plugin ItemSlotMachine v1.4.3
-[21:05:55] [Server thread/INFO]: [DriveBackupV2] Loading server plugin DriveBackupV2 v1.6.3
-[21:05:55] [Server thread/INFO]: [Minepacks] Loading server plugin Minepacks v2.4.31.4-T20240629215752
-[21:05:55] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.4.4
-[21:05:55] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.0-dev+93-3a6fdd9
-[21:05:55] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.10
-[21:05:55] [Server thread/INFO]: [LoginSecurity] Loading server plugin LoginSecurity v3.3.0
-[21:05:55] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[21:05:55] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.134
-[21:05:55] [Server thread/INFO]:         __    
-[21:05:55] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.134
-[21:05:55] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[21:05:55] [Server thread/INFO]: 
-[21:05:55] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[21:05:56] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[21:05:56] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[21:05:56] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[21:05:57] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1784ms)
-[21:05:57] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[21:05:57] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[21:05:57] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[21:05:57] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[21:05:57] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[21:05:57] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.4.4
-[21:05:58] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
-[21:05:59] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.0.
-[21:05:59] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
-[21:06:00] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[21:06:00] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[21:06:00] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[21:06:00] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[21:06:00] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[21:06:00] [Server thread/INFO]: Preparing level "world"
-[21:06:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[21:06:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[21:06:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[21:06:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[21:06:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[21:06:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[21:06:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[21:06:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.4.4
-[21:06:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: dc501c7
-[21:06:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[21:06:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[21:06:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[21:06:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[21:06:00] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[21:06:01] [Server thread/INFO]: Time elapsed: 1117 ms
-[21:06:01] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[21:06:02] [Server thread/INFO]: Time elapsed: 246 ms
-[21:06:02] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[21:06:02] [Server thread/INFO]: Time elapsed: 127 ms
-[21:06:02] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+93-3a6fdd9
-[21:06:02] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[21:06:03] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[21:06:03] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[21:06:03] [Server thread/INFO]: [Essentials] Loaded 39121 items from items.json.
-[21:06:03] [Server thread/INFO]: [Essentials] Using locale en
-[21:06:03] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[21:06:04] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[21:06:04] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[21:06:04] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
-[21:06:04] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b109-49bd564)
-[21:06:04] [Server thread/INFO]: [BetterSleeping4] Enabling BetterSleeping4 v4.0.2
-[21:06:05] [Server thread/INFO]: [UltraCosmetics] Enabling UltraCosmetics v3.6.0.1-RELEASE
-[21:06:06] [Server thread/INFO]: [UltraCosmetics] Checking for update...
-[21:06:06] [Server thread/INFO]: [UltraCosmetics] -------------------------------------------------------------------
-[21:06:06] [Server thread/INFO]: [UltraCosmetics] Thanks for using UltraCosmetics! Version: 3.6.0.1-RELEASE (commit f734193)
-[21:06:06] [Server thread/INFO]: [UltraCosmetics] Plugin by Datatags. Original Author: iSach
-[21:06:06] [Server thread/INFO]: [UltraCosmetics] Link: https://bit.ly/UltraCosmetics
-[21:06:06] [Server thread/INFO]: [UltraCosmetics] 
-[21:06:06] [Server thread/WARN]: [UltraCosmetics] This server version is unknown (1.21), but UltraCosmetics will try to continue running.
-[21:06:06] [Server thread/INFO]: [UltraCosmetics] Initializing module NEW (expected version: ???)
-[21:06:06] [Server thread/INFO]: [UltraCosmetics] Loading NMS-less mode...
-[21:06:06] [Server thread/INFO]: [UltraCosmetics] Loaded NMS-less mode
-[21:06:06] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[21:06:07] [Server thread/INFO]: [UltraCosmetics] 
-[21:06:07] [Server thread/WARN]: [UltraCosmetics] Morphs require Lib's Disguises, but it is not installed. Morphs will be disabled.
-[21:06:07] [Server thread/INFO]: [UltraCosmetics] 
-[21:06:07] [Server thread/INFO]: [UltraCosmetics] Hooked into Vault:EssentialsX Economy for economy.
-[21:06:07] [Server thread/INFO]: [UltraCosmetics] 
-[21:06:07] [Server thread/INFO]: [UltraCosmetics] 
-[21:06:07] [Server thread/INFO]: [UltraCosmetics] UltraCosmetics successfully finished loading in 1728ms!
-[21:06:07] [Server thread/INFO]: [UltraCosmetics] -------------------------------------------------------------------
-[21:06:07] [Server thread/INFO]: [RedProtect] Enabling RedProtect v8.1.1-SNAPSHOT
-[21:06:08] [Server thread/INFO]: [RedProtect] Server version: 1.21-R0.1-SNAPSHOT
-[21:06:08] [Server thread/INFO]: [RedProtect] All configurations loaded!
-[21:06:08] [Server thread/INFO]: [RedProtect] Language file loaded - Using: EN-US
-[21:06:08] [Server thread/INFO]: [RedProtect] Registering commands...
-[21:06:08] [Server thread/INFO]: [RedProtect] Registering listeners...
-[21:06:08] [Server thread/INFO]: [RedProtect] Vault Economy found. Hooked.
-[21:06:08] [Server thread/INFO]: [RedProtect] Vault Permissions found. Hooked.
-[21:06:08] [Server thread/INFO]: [RedProtect] Essentials found. Hooked.
-[21:06:08] [Server thread/INFO]: [RedProtect] - Loading world's regions...
-[21:06:08] [Server thread/INFO]: [RedProtect] - Loading world_nether's regions...
-[21:06:08] [Server thread/INFO]: [RedProtect] - Loading world_the_end's regions...
-[21:06:08] [Server thread/INFO]: [RedProtect] Auto-save Scheduler: Saving file database every 60 minutes!
-[21:06:08] [Server thread/INFO]: [RedProtect] There are 0 regions on (file) database!
-[21:06:08] [Server thread/INFO]: [RedProtect] Helper version: Latest
-[21:06:08] [Server thread/INFO]: [RedProtect] Loading GuiFlags for 1.14+
-[21:06:08] [Server thread/INFO]: [RedProtect] Metrics enabled! See our stats here: https://bstats.org/plugin/bukkit/RedProtect
-[21:06:08] [Server thread/INFO]: [RedProtect] Loading API...
-[21:06:08] [Server thread/INFO]: [RedProtect] API Loaded!
-[21:06:08] [Server thread/INFO]:  _   _  _   _   _   _  _ _  _  _ _ _  _
-[21:06:08] [Server thread/INFO]: |_| |_ | \ |_| |_| | |  |  |_ |   |  |_|
-[21:06:08] [Server thread/INFO]: | \ |_ |_/ |   | \ |_|  |  |_ |_  |  |_|
-[21:06:08] [Server thread/INFO]: » RedProtect v8.1.1-SNAPSHOT enabled
-[21:06:08] [Server thread/INFO]: 
-[21:06:08] [Server thread/INFO]: [TAB] Enabling TAB v4.1.6
-[21:06:09] [Server thread/INFO]: [TAB] Loaded NMS hook in 111ms
-[21:06:09] [Server thread/INFO]: [TAB] Enabled in 456ms
-[21:06:09] [Server thread/INFO]: [ItemSlotMachine] Enabling ItemSlotMachine v1.4.3
-[21:06:09] [Server thread/INFO]: [ItemSlotMachine] Invalid material name in setting design.space-check.ignored-types.
-[21:06:09] [Server thread/INFO]: [ItemSlotMachine] Vault hooked, money distribution is active.
-[21:06:09] [Server thread/INFO]: [ItemSlotMachine] Language en-US loaded.
-[21:06:09] [Server thread/INFO]: [ItemSlotMachine] 1 design loaded.
-[21:06:09] [Server thread/INFO]: [ItemSlotMachine] 0 slot machines loaded.
-[21:06:09] [Server thread/INFO]: [ItemSlotMachine] Statistics successfully loaded.
-[21:06:09] [Server thread/INFO]: [ItemSlotMachine] This plugin is using Metrics by BtoBastian.
-[21:06:09] [Server thread/INFO]: [ItemSlotMachine] Version 1.4.3 loaded. (139 ms)
-[21:06:09] [Server thread/INFO]: [DriveBackupV2] Enabling DriveBackupV2 v1.6.3
-[21:06:11] [Server thread/INFO]: [Aventura Triki Traka] Config loaded!
-[21:06:11] [Server thread/INFO]: [Aventura Triki Traka] Scheduling a backup to run every 20 minutes
-[21:06:11] [Server thread/INFO]: [Aventura Triki Traka] Metrics started
-[21:06:11] [Server thread/INFO]: [Minepacks] Enabling Minepacks v2.4.31.4-T20240629215752
-[21:06:11] [Server thread/INFO]: [Minepacks] Starting Minepacks in standalone mode!
-[21:06:11] [Server thread/INFO]: [Minepacks] Config file successfully loaded.
-[21:06:11] [Server thread/WARN]: [Minepacks] Paper support is experimental! Use at your own risk!
-[21:06:11] [Server thread/WARN]: [Minepacks] No guarantee for data integrity! Backup constantly!
-[21:06:12] [Server thread/INFO]: [Minepacks] Language file successfully loaded. Language: es_es  Author: ThatOverPowered & PostBoxRetinal
-[21:06:12] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Starting...
-[21:06:12] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Start completed.
-[21:06:12] [Server thread/INFO]: [Minepacks] Item name language file successfully loaded. Language: english  Author: GeorgH93
-[21:06:12] [Server thread/INFO]: [Minepacks] Loading item translations ...
-[21:06:12] [Server thread/INFO]: [Minepacks] Finished loading item translations for 826 items.
-[21:06:12] [Server thread/INFO]: [Minepacks]  Minepacks has been enabled!  :) 
-[21:06:12] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.0-dev+93-3a6fdd9
-[21:06:12] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
-[21:06:12] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.10
-[21:06:12] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.3.0
-[21:06:12] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
-[21:06:12] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
-[21:06:12] [Server thread/INFO]: [LoginSecurity] Registering commands...
-[21:06:12] [Server thread/INFO]: [LoginSecurity] Registering listeners...
-[21:06:12] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
-[21:06:12] [Server thread/INFO]: Running delayed init tasks
-[21:06:12] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[21:06:12] [Server thread/INFO]: Done (22.214s)! For help, type "help"
-[21:06:12] [Server thread/INFO]: Timings Reset
-[21:06:12] [Craft Scheduler Thread - 1 - DriveBackupV2/INFO]: [Aventura Triki Traka] Checking for updates...
-[21:06:12] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Fetching version information...
-[21:06:12] [Craft Scheduler Thread - 0 - ItemSlotMachine/INFO]: [ItemSlotMachine] There is no update available.
-[21:06:12] [Craft Scheduler Thread - 0 - Vault/INFO]: [Vault] Checking for Updates ... 
-[21:06:13] [Craft Scheduler Thread - 0 - Vault/INFO]: [Vault] No new version available
-[21:06:13] [Craft Scheduler Thread - 3 - Essentials/WARN]: [Essentials] You're 52 EssentialsX dev build(s) out of date!
-[21:06:13] [Craft Scheduler Thread - 3 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
-[21:06:13] [Craft Scheduler Thread - 2 - UltraCosmetics/INFO]: [UltraCosmetics] New version available on Spigot: 3.9
-[21:06:13] [Craft Scheduler Thread - 1 - DriveBackupV2/INFO]: [Aventura Triki Traka] DriveBackup version 1.8.0 has been released, You are currently running version 1.6.3
-Update at: http://bit.ly/2VGtF7L" or with /drivebackup update
-[21:09:30] [User Authenticator #0/INFO]: UUID of player Ranpool201 is b5e9f71d-a66c-3166-9e27-1de5e6b54795
-[21:09:32] [Server thread/INFO]: [Aventura Triki Traka] Enabling automatic backups
-[21:09:32] [Server thread/INFO]: Ranpool201 joined the game
-[21:09:32] [Server thread/INFO]: Ranpool201[/127.8.136.234:54335] logged in with entity id 19 at ([world]-221.57364975825627, 91.0, -1881.020626880272)
-[21:10:09] [Server thread/INFO]: Ranpool201 lost connection: Disconnected
-[21:10:09] [Server thread/INFO]: Ranpool201 left the game
-[21:10:30] [Server thread/INFO]: Stopping the server
-[21:10:30] [Server thread/INFO]: Stopping server
-[21:10:30] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.3.0
-[21:10:30] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
-[21:10:30] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
-[21:10:30] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.10
-[21:10:30] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.21.0-dev+93-3a6fdd9
-[21:10:30] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.4.4
-[21:10:30] [Server thread/INFO]: [Minepacks] Disabling Minepacks v2.4.31.4-T20240629215752
-[21:10:31] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Shutdown initiated...
-[21:10:31] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Shutdown completed.
-[21:10:31] [Server thread/INFO]: [Minepacks]  Minepacks has been disabled.  :( 
-[21:10:31] [Server thread/INFO]: [DriveBackupV2] Disabling DriveBackupV2 v1.6.3
-[21:10:31] [Server thread/INFO]: [Aventura Triki Traka] Stopping plugin!
-[21:10:31] [Server thread/INFO]: [ItemSlotMachine] Disabling ItemSlotMachine v1.4.3
-[21:10:31] [Server thread/INFO]: [ItemSlotMachine] Version 1.4.3 disabled.
-[21:10:31] [Server thread/INFO]: [TAB] Disabling TAB v4.1.6
-[21:10:31] [Server thread/INFO]: [TAB] Disabled in 1ms
-[21:10:31] [Server thread/INFO]: [RedProtect] Disabling RedProtect v8.1.1-SNAPSHOT
-[21:10:31] [Server thread/INFO]: [RedProtect] Saving world's regions...
-[21:10:31] [Server thread/INFO]: [RedProtect] Saving world_the_end's regions...
-[21:10:31] [Server thread/INFO]: [RedProtect] Saving world_nether's regions...
-[21:10:31] [Server thread/INFO]: [RedProtect] Unregistering listeners...
-[21:10:31] [Server thread/INFO]: [RedProtect] RedProtect v8.1.1-SNAPSHOT turned off...
-[21:10:31] [Server thread/INFO]: [UltraCosmetics] Disabling UltraCosmetics v3.6.0.1-RELEASE
-[21:10:31] [Server thread/INFO]: [BetterSleeping4] Disabling BetterSleeping4 v4.0.2
-[21:10:31] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.3-SNAPSHOT (b109-49bd564)
-[21:10:31] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+93-3a6fdd9
-[21:10:31] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
-[21:10:31] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[21:10:31] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.134
-[21:10:31] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[21:10:31] [Server thread/INFO]: [LuckPerms] Closing storage...
-[21:10:31] [Server thread/INFO]: [LuckPerms] Goodbye!
-[21:10:31] [Server thread/INFO]: Saving players
-[21:10:31] [Server thread/INFO]: Saving worlds
-[21:10:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[21:10:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[21:10:31] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[21:10:31] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[21:10:31] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world' in 0.15s
-[21:10:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[21:10:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[21:10:31] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[21:10:31] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[21:10:31] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.25s
-[21:10:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[21:10:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[21:10:32] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[21:10:32] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[21:10:32] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.12s
-[21:10:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[21:10:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21:10:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[21:10:32] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[00:17:19] [Craft Scheduler Thread - 326 - DriveBackupV2/INFO]: [Aventura Triki Traka] Creating backups, the server may lag for a little while...
+[00:17:19] [Craft Scheduler Thread - 326 - DriveBackupV2/INFO]: [Aventura Triki Traka] Creating local backup(s) and compressing...
+[00:17:19] [Craft Scheduler Thread - 326 - DriveBackupV2/INFO]: [Aventura Triki Traka] Creating local backup for "./world"
+[00:18:27] [Craft Scheduler Thread - 326 - DriveBackupV2/INFO]: [Aventura Triki Traka] Local backup for "./world" created
+[00:18:27] [Craft Scheduler Thread - 326 - DriveBackupV2/INFO]: [Aventura Triki Traka] Creating local backup for "./world_nether"
+[00:18:28] [Craft Scheduler Thread - 326 - DriveBackupV2/INFO]: [Aventura Triki Traka] Local backup for "./world_nether" created
+[00:18:28] [Craft Scheduler Thread - 326 - DriveBackupV2/INFO]: [Aventura Triki Traka] Creating local backup for "./world_the_end"
+[00:18:28] [Craft Scheduler Thread - 326 - DriveBackupV2/INFO]: [Aventura Triki Traka] Local backup for "./world_the_end" created
+[00:18:28] [Craft Scheduler Thread - 326 - DriveBackupV2/INFO]: [Aventura Triki Traka] Creating local backup for "plugins"
+[00:18:37] [Craft Scheduler Thread - 326 - DriveBackupV2/INFO]: [Aventura Triki Traka] Local backup for "plugins" created
+[00:18:37] [Craft Scheduler Thread - 326 - DriveBackupV2/INFO]: [Aventura Triki Traka] Local backup(s) created and compressed
+[00:18:37] [Craft Scheduler Thread - 326 - DriveBackupV2/INFO]: [Aventura Triki Traka] Uploading backup(s)...
+[00:18:37] [Craft Scheduler Thread - 326 - DriveBackupV2/INFO]: [Aventura Triki Traka] Starting upload(s) for file "/workspaces/TrikiTraka-3/servidor_minecraft/backups/world/Backup-world-2024-12-15--00-17.zip"
+[00:18:37] [Craft Scheduler Thread - 326 - DriveBackupV2/INFO]: [Aventura Triki Traka] Uploading file to Google Drive
+[00:19:05] [Craft Scheduler Thread - 326 - DriveBackupV2/INFO]: [Aventura Triki Traka] File uploaded in 28.22 seconds (41135.6KB/s)
+[00:19:05] [Craft Scheduler Thread - 326 - DriveBackupV2/INFO]: [Aventura Triki Traka] Uploading file to OneDrive
+[00:19:07] [Craft Scheduler Thread - 326 - DriveBackupV2/WARN]: ratismal.drivebackup.uploaders.onedrive.GraphApiErrorException: 507 quotaLimitReached : "Quota limit reached"
+[00:19:07] [Craft Scheduler Thread - 326 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.uploaders.onedrive.OneDriveUploader.createUploadSession(OneDriveUploader.java:462)
+[00:19:07] [Craft Scheduler Thread - 326 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.uploaders.onedrive.OneDriveUploader.uploadFile(OneDriveUploader.java:135)
+[00:19:07] [Craft Scheduler Thread - 326 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.UploadThread.uploadFile(UploadThread.java:414)
+[00:19:07] [Craft Scheduler Thread - 326 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.UploadThread.uploadBackupFiles(UploadThread.java:383)
+[00:19:07] [Craft Scheduler Thread - 326 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.UploadThread.run(UploadThread.java:273)
+[00:19:07] [Craft Scheduler Thread - 326 - DriveBackupV2/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101)
+[00:19:07] [Craft Scheduler Thread - 326 - DriveBackupV2/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+[00:19:07] [Craft Scheduler Thread - 326 - DriveBackupV2/WARN]: 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+[00:19:07] [Craft Scheduler Thread - 326 - DriveBackupV2/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[00:19:07] [Craft Scheduler Thread - 326 - DriveBackupV2/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[00:19:07] [Craft Scheduler Thread - 326 - DriveBackupV2/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[00:19:07] [Craft Scheduler Thread - 326 - DriveBackupV2/INFO]: [Aventura Triki Traka] Failed to upload
+[00:19:07] [Craft Scheduler Thread - 326 - DriveBackupV2/INFO]: [Aventura Triki Traka] Upload(s) for file "Backup-world-2024-12-15--00-17.zip" complete
+[00:19:07] [Craft Scheduler Thread - 326 - DriveBackupV2/INFO]: [Aventura Triki Traka] Starting upload(s) for file "/workspaces/TrikiTraka-3/servidor_minecraft/backups/world_nether/Backup-world_nether-2024-12-15--00-18.zip"
+[00:19:07] [Craft Scheduler Thread - 326 - DriveBackupV2/INFO]: [Aventura Triki Traka] Uploading file to Google Drive
+[00:19:09] [Craft Scheduler Thread - 326 - DriveBackupV2/INFO]: [Aventura Triki Traka] File uploaded in 1.68 seconds (16167.28KB/s)
+[00:19:09] [Craft Scheduler Thread - 326 - DriveBackupV2/INFO]: [Aventura Triki Traka] Uploading file to OneDrive
+[00:19:09] [Craft Scheduler Thread - 326 - DriveBackupV2/WARN]: ratismal.drivebackup.uploaders.onedrive.GraphApiErrorException: 507 quotaLimitReached : "Quota limit reached"
+[00:19:09] [Craft Scheduler Thread - 326 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.uploaders.onedrive.OneDriveUploader.createUploadSession(OneDriveUploader.java:462)
+[00:19:09] [Craft Scheduler Thread - 326 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.uploaders.onedrive.OneDriveUploader.uploadFile(OneDriveUploader.java:135)
+[00:19:09] [Craft Scheduler Thread - 326 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.UploadThread.uploadFile(UploadThread.java:414)
+[00:19:09] [Craft Scheduler Thread - 326 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.UploadThread.uploadBackupFiles(UploadThread.java:383)
+[00:19:09] [Craft Scheduler Thread - 326 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.UploadThread.run(UploadThread.java:273)
+[00:19:09] [Craft Scheduler Thread - 326 - DriveBackupV2/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101)
+[00:19:09] [Craft Scheduler Thread - 326 - DriveBackupV2/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+[00:19:09] [Craft Scheduler Thread - 326 - DriveBackupV2/WARN]: 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+[00:19:09] [Craft Scheduler Thread - 326 - DriveBackupV2/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[00:19:09] [Craft Scheduler Thread - 326 - DriveBackupV2/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[00:19:09] [Craft Scheduler Thread - 326 - DriveBackupV2/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[00:19:09] [Craft Scheduler Thread - 326 - DriveBackupV2/INFO]: [Aventura Triki Traka] Failed to upload
+[00:19:09] [Craft Scheduler Thread - 326 - DriveBackupV2/INFO]: [Aventura Triki Traka] Upload(s) for file "Backup-world_nether-2024-12-15--00-18.zip" complete
+[00:19:09] [Craft Scheduler Thread - 326 - DriveBackupV2/INFO]: [Aventura Triki Traka] Starting upload(s) for file "/workspaces/TrikiTraka-3/servidor_minecraft/backups/world_the_end/Backup-world_the_end-2024-12-15--00-18.zip"
+[00:19:09] [Craft Scheduler Thread - 326 - DriveBackupV2/INFO]: [Aventura Triki Traka] Uploading file to Google Drive
+[00:19:11] [Craft Scheduler Thread - 326 - DriveBackupV2/INFO]: [Aventura Triki Traka] File uploaded in 1.41 seconds (224.76KB/s)
+[00:19:11] [Craft Scheduler Thread - 326 - DriveBackupV2/INFO]: [Aventura Triki Traka] Uploading file to OneDrive
+[00:19:12] [Craft Scheduler Thread - 326 - DriveBackupV2/WARN]: ratismal.drivebackup.uploaders.onedrive.GraphApiErrorException: 507 quotaLimitReached : "Quota limit reached"
+[00:19:12] [Craft Scheduler Thread - 326 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.uploaders.onedrive.OneDriveUploader.createUploadSession(OneDriveUploader.java:462)
+[00:19:12] [Craft Scheduler Thread - 326 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.uploaders.onedrive.OneDriveUploader.uploadFile(OneDriveUploader.java:135)
+[00:19:12] [Craft Scheduler Thread - 326 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.UploadThread.uploadFile(UploadThread.java:414)
+[00:19:12] [Craft Scheduler Thread - 326 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.UploadThread.uploadBackupFiles(UploadThread.java:383)
+[00:19:12] [Craft Scheduler Thread - 326 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.UploadThread.run(UploadThread.java:273)
+[00:19:12] [Craft Scheduler Thread - 326 - DriveBackupV2/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101)
+[00:19:12] [Craft Scheduler Thread - 326 - DriveBackupV2/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+[00:19:12] [Craft Scheduler Thread - 326 - DriveBackupV2/WARN]: 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+[00:19:12] [Craft Scheduler Thread - 326 - DriveBackupV2/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[00:19:12] [Craft Scheduler Thread - 326 - DriveBackupV2/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[00:19:12] [Craft Scheduler Thread - 326 - DriveBackupV2/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[00:19:12] [Craft Scheduler Thread - 326 - DriveBackupV2/INFO]: [Aventura Triki Traka] Failed to upload
+[00:19:12] [Craft Scheduler Thread - 326 - DriveBackupV2/INFO]: [Aventura Triki Traka] Upload(s) for file "Backup-world_the_end-2024-12-15--00-18.zip" complete
+[00:19:12] [Craft Scheduler Thread - 326 - DriveBackupV2/INFO]: [Aventura Triki Traka] Starting upload(s) for file "/workspaces/TrikiTraka-3/servidor_minecraft/backups/plugins/Backup-plugins-2024-12-15--00-18.zip"
+[00:19:12] [Craft Scheduler Thread - 326 - DriveBackupV2/INFO]: [Aventura Triki Traka] Uploading file to Google Drive
+[00:19:17] [Craft Scheduler Thread - 326 - DriveBackupV2/INFO]: [Aventura Triki Traka] File uploaded in 4.8 seconds (29257.63KB/s)
+[00:19:17] [Craft Scheduler Thread - 326 - DriveBackupV2/INFO]: [Aventura Triki Traka] Uploading file to OneDrive
+[00:19:18] [Craft Scheduler Thread - 326 - DriveBackupV2/WARN]: ratismal.drivebackup.uploaders.onedrive.GraphApiErrorException: 507 quotaLimitReached : "Quota limit reached"
+[00:19:18] [Craft Scheduler Thread - 326 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.uploaders.onedrive.OneDriveUploader.createUploadSession(OneDriveUploader.java:462)
+[00:19:18] [Craft Scheduler Thread - 326 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.uploaders.onedrive.OneDriveUploader.uploadFile(OneDriveUploader.java:135)
+[00:19:18] [Craft Scheduler Thread - 326 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.UploadThread.uploadFile(UploadThread.java:414)
+[00:19:18] [Craft Scheduler Thread - 326 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.UploadThread.uploadBackupFiles(UploadThread.java:383)
+[00:19:18] [Craft Scheduler Thread - 326 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.UploadThread.run(UploadThread.java:273)
+[00:19:18] [Craft Scheduler Thread - 326 - DriveBackupV2/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101)
+[00:19:18] [Craft Scheduler Thread - 326 - DriveBackupV2/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+[00:19:18] [Craft Scheduler Thread - 326 - DriveBackupV2/WARN]: 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+[00:19:18] [Craft Scheduler Thread - 326 - DriveBackupV2/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[00:19:18] [Craft Scheduler Thread - 326 - DriveBackupV2/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[00:19:18] [Craft Scheduler Thread - 326 - DriveBackupV2/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[00:19:18] [Craft Scheduler Thread - 326 - DriveBackupV2/INFO]: [Aventura Triki Traka] Failed to upload
+[00:19:18] [Craft Scheduler Thread - 326 - DriveBackupV2/INFO]: [Aventura Triki Traka] Upload(s) for file "Backup-plugins-2024-12-15--00-18.zip" complete
+[00:19:18] [Craft Scheduler Thread - 326 - DriveBackupV2/INFO]: [Aventura Triki Traka] Backup(s) uploaded
+[00:19:18] [Craft Scheduler Thread - 326 - DriveBackupV2/INFO]: [Aventura Triki Traka] Checking for upload errors...
+[00:19:18] [Craft Scheduler Thread - 326 - DriveBackupV2/INFO]: [Aventura Triki Traka] Backup to Google Drive complete
+[00:19:18] [Craft Scheduler Thread - 326 - DriveBackupV2/INFO]: [Aventura Triki Traka] Failed to backup to OneDrive, verify all credentials are correct or diagnose the problem with /drivebackup test onedrive
+[00:19:18] [Craft Scheduler Thread - 326 - DriveBackupV2/INFO]: [Aventura Triki Traka] Backup complete
+[00:19:18] [Craft Scheduler Thread - 326 - DriveBackupV2/INFO]: [Aventura Triki Traka] The next backup is in 18 minutes
+[00:19:18] [Craft Scheduler Thread - 326 - DriveBackupV2/INFO]: [Aventura Triki Traka] Pruning local backups
+[00:19:18] [Craft Scheduler Thread - 326 - DriveBackupV2/INFO]: [Aventura Triki Traka] Pruning local backups for "./world"
+[00:19:18] [Craft Scheduler Thread - 326 - DriveBackupV2/INFO]: [Aventura Triki Traka] There are 1 file(s) which exceeds the local limit of 0, deleting oldest
+[00:19:18] [Craft Scheduler Thread - 326 - DriveBackupV2/INFO]: [Aventura Triki Traka] Deleted local backup "Backup-world-2024-12-15--00-17.zip"
+[00:19:18] [Craft Scheduler Thread - 326 - DriveBackupV2/INFO]: [Aventura Triki Traka] Local backup pruning complete for "./world"
+[00:19:18] [Craft Scheduler Thread - 326 - DriveBackupV2/INFO]: [Aventura Triki Traka] Pruning local backups for "./world_the_end"
+[00:19:18] [Craft Scheduler Thread - 326 - DriveBackupV2/INFO]: [Aventura Triki Traka] There are 1 file(s) which exceeds the local limit of 0, deleting oldest
+[00:19:18] [Craft Scheduler Thread - 326 - DriveBackupV2/INFO]: [Aventura Triki Traka] Deleted local backup "Backup-world_the_end-2024-12-15--00-18.zip"
+[00:19:18] [Craft Scheduler Thread - 326 - DriveBackupV2/INFO]: [Aventura Triki Traka] Local backup pruning complete for "./world_the_end"
+[00:19:18] [Craft Scheduler Thread - 326 - DriveBackupV2/INFO]: [Aventura Triki Traka] Pruning local backups for "plugins"
+[00:19:18] [Craft Scheduler Thread - 326 - DriveBackupV2/INFO]: [Aventura Triki Traka] There are 1 file(s) which exceeds the local limit of 0, deleting oldest
+[00:19:18] [Craft Scheduler Thread - 326 - DriveBackupV2/INFO]: [Aventura Triki Traka] Deleted local backup "Backup-plugins-2024-12-15--00-18.zip"
+[00:19:18] [Craft Scheduler Thread - 326 - DriveBackupV2/INFO]: [Aventura Triki Traka] Local backup pruning complete for "plugins"
+[00:19:18] [Craft Scheduler Thread - 326 - DriveBackupV2/INFO]: [Aventura Triki Traka] Pruning local backups for "./world_nether"
+[00:19:18] [Craft Scheduler Thread - 326 - DriveBackupV2/INFO]: [Aventura Triki Traka] There are 1 file(s) which exceeds the local limit of 0, deleting oldest
+[00:19:18] [Craft Scheduler Thread - 326 - DriveBackupV2/INFO]: [Aventura Triki Traka] Deleted local backup "Backup-world_nether-2024-12-15--00-18.zip"
+[00:19:18] [Craft Scheduler Thread - 326 - DriveBackupV2/INFO]: [Aventura Triki Traka] Local backup pruning complete for "./world_nether"
+[00:19:18] [Craft Scheduler Thread - 326 - DriveBackupV2/INFO]: [Aventura Triki Traka] Local backup pruning complete
+[00:19:18] [Craft Scheduler Thread - 326 - DriveBackupV2/INFO]: [Aventura Triki Traka] Backup took 118 seconds to compleate
+[00:24:02] [Server thread/INFO]: Ledacar was slain by Guardian
+[00:24:03] [Server thread/INFO]: Attempt to teleport removed player Ledacar restricted
+[00:37:19] [Craft Scheduler Thread - 403 - DriveBackupV2/INFO]: [Aventura Triki Traka] Creating backups, the server may lag for a little while...
+[00:37:19] [Craft Scheduler Thread - 403 - DriveBackupV2/INFO]: [Aventura Triki Traka] Creating local backup(s) and compressing...
+[00:37:19] [Craft Scheduler Thread - 403 - DriveBackupV2/INFO]: [Aventura Triki Traka] Creating local backup for "./world"
+[00:38:26] [Craft Scheduler Thread - 403 - DriveBackupV2/INFO]: [Aventura Triki Traka] Local backup for "./world" created
+[00:38:26] [Craft Scheduler Thread - 403 - DriveBackupV2/INFO]: [Aventura Triki Traka] Creating local backup for "./world_nether"
+[00:38:29] [Craft Scheduler Thread - 403 - DriveBackupV2/INFO]: [Aventura Triki Traka] Local backup for "./world_nether" created
+[00:38:29] [Craft Scheduler Thread - 403 - DriveBackupV2/INFO]: [Aventura Triki Traka] Creating local backup for "./world_the_end"
+[00:38:29] [Craft Scheduler Thread - 403 - DriveBackupV2/INFO]: [Aventura Triki Traka] Local backup for "./world_the_end" created
+[00:38:29] [Craft Scheduler Thread - 403 - DriveBackupV2/INFO]: [Aventura Triki Traka] Creating local backup for "plugins"
+[00:38:37] [Craft Scheduler Thread - 403 - DriveBackupV2/INFO]: [Aventura Triki Traka] Local backup for "plugins" created
+[00:38:37] [Craft Scheduler Thread - 403 - DriveBackupV2/INFO]: [Aventura Triki Traka] Local backup(s) created and compressed
+[00:38:37] [Craft Scheduler Thread - 403 - DriveBackupV2/INFO]: [Aventura Triki Traka] Uploading backup(s)...
+[00:38:38] [Craft Scheduler Thread - 403 - DriveBackupV2/INFO]: [Aventura Triki Traka] Starting upload(s) for file "/workspaces/TrikiTraka-3/servidor_minecraft/backups/world/Backup-world-2024-12-15--00-37.zip"
+[00:38:38] [Craft Scheduler Thread - 403 - DriveBackupV2/INFO]: [Aventura Triki Traka] Uploading file to Google Drive
+[00:39:08] [Craft Scheduler Thread - 403 - DriveBackupV2/INFO]: [Aventura Triki Traka] File uploaded in 29.92 seconds (38796.78KB/s)
+[00:39:08] [Craft Scheduler Thread - 403 - DriveBackupV2/INFO]: [Aventura Triki Traka] Uploading file to OneDrive
+[00:39:09] [Craft Scheduler Thread - 403 - DriveBackupV2/WARN]: ratismal.drivebackup.uploaders.onedrive.GraphApiErrorException: 507 quotaLimitReached : "Quota limit reached"
+[00:39:09] [Craft Scheduler Thread - 403 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.uploaders.onedrive.OneDriveUploader.createUploadSession(OneDriveUploader.java:462)
+[00:39:09] [Craft Scheduler Thread - 403 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.uploaders.onedrive.OneDriveUploader.uploadFile(OneDriveUploader.java:135)
+[00:39:09] [Craft Scheduler Thread - 403 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.UploadThread.uploadFile(UploadThread.java:414)
+[00:39:09] [Craft Scheduler Thread - 403 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.UploadThread.uploadBackupFiles(UploadThread.java:383)
+[00:39:09] [Craft Scheduler Thread - 403 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.UploadThread.run(UploadThread.java:273)
+[00:39:09] [Craft Scheduler Thread - 403 - DriveBackupV2/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101)
+[00:39:09] [Craft Scheduler Thread - 403 - DriveBackupV2/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+[00:39:09] [Craft Scheduler Thread - 403 - DriveBackupV2/WARN]: 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+[00:39:09] [Craft Scheduler Thread - 403 - DriveBackupV2/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[00:39:09] [Craft Scheduler Thread - 403 - DriveBackupV2/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[00:39:09] [Craft Scheduler Thread - 403 - DriveBackupV2/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[00:39:09] [Craft Scheduler Thread - 403 - DriveBackupV2/INFO]: [Aventura Triki Traka] Failed to upload
+[00:39:09] [Craft Scheduler Thread - 403 - DriveBackupV2/INFO]: [Aventura Triki Traka] Upload(s) for file "Backup-world-2024-12-15--00-37.zip" complete
+[00:39:09] [Craft Scheduler Thread - 403 - DriveBackupV2/INFO]: [Aventura Triki Traka] Starting upload(s) for file "/workspaces/TrikiTraka-3/servidor_minecraft/backups/world_nether/Backup-world_nether-2024-12-15--00-38.zip"
+[00:39:09] [Craft Scheduler Thread - 403 - DriveBackupV2/INFO]: [Aventura Triki Traka] Uploading file to Google Drive
+[00:39:11] [Craft Scheduler Thread - 403 - DriveBackupV2/INFO]: [Aventura Triki Traka] File uploaded in 2.21 seconds (12325KB/s)
+[00:39:11] [Craft Scheduler Thread - 403 - DriveBackupV2/INFO]: [Aventura Triki Traka] Uploading file to OneDrive
+[00:39:12] [Craft Scheduler Thread - 403 - DriveBackupV2/WARN]: ratismal.drivebackup.uploaders.onedrive.GraphApiErrorException: 507 quotaLimitReached : "Quota limit reached"
+[00:39:12] [Craft Scheduler Thread - 403 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.uploaders.onedrive.OneDriveUploader.createUploadSession(OneDriveUploader.java:462)
+[00:39:12] [Craft Scheduler Thread - 403 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.uploaders.onedrive.OneDriveUploader.uploadFile(OneDriveUploader.java:135)
+[00:39:12] [Craft Scheduler Thread - 403 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.UploadThread.uploadFile(UploadThread.java:414)
+[00:39:12] [Craft Scheduler Thread - 403 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.UploadThread.uploadBackupFiles(UploadThread.java:383)
+[00:39:12] [Craft Scheduler Thread - 403 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.UploadThread.run(UploadThread.java:273)
+[00:39:12] [Craft Scheduler Thread - 403 - DriveBackupV2/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101)
+[00:39:12] [Craft Scheduler Thread - 403 - DriveBackupV2/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+[00:39:12] [Craft Scheduler Thread - 403 - DriveBackupV2/WARN]: 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+[00:39:12] [Craft Scheduler Thread - 403 - DriveBackupV2/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[00:39:12] [Craft Scheduler Thread - 403 - DriveBackupV2/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[00:39:12] [Craft Scheduler Thread - 403 - DriveBackupV2/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[00:39:12] [Craft Scheduler Thread - 403 - DriveBackupV2/INFO]: [Aventura Triki Traka] Failed to upload
+[00:39:12] [Craft Scheduler Thread - 403 - DriveBackupV2/INFO]: [Aventura Triki Traka] Upload(s) for file "Backup-world_nether-2024-12-15--00-38.zip" complete
+[00:39:12] [Craft Scheduler Thread - 403 - DriveBackupV2/INFO]: [Aventura Triki Traka] Starting upload(s) for file "/workspaces/TrikiTraka-3/servidor_minecraft/backups/world_the_end/Backup-world_the_end-2024-12-15--00-38.zip"
+[00:39:12] [Craft Scheduler Thread - 403 - DriveBackupV2/INFO]: [Aventura Triki Traka] Uploading file to Google Drive
+[00:39:13] [Craft Scheduler Thread - 403 - DriveBackupV2/INFO]: [Aventura Triki Traka] File uploaded in 1.29 seconds (245.46KB/s)
+[00:39:13] [Craft Scheduler Thread - 403 - DriveBackupV2/INFO]: [Aventura Triki Traka] Uploading file to OneDrive
+[00:39:14] [Craft Scheduler Thread - 403 - DriveBackupV2/WARN]: ratismal.drivebackup.uploaders.onedrive.GraphApiErrorException: 507 quotaLimitReached : "Quota limit reached"
+[00:39:14] [Craft Scheduler Thread - 403 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.uploaders.onedrive.OneDriveUploader.createUploadSession(OneDriveUploader.java:462)
+[00:39:14] [Craft Scheduler Thread - 403 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.uploaders.onedrive.OneDriveUploader.uploadFile(OneDriveUploader.java:135)
+[00:39:14] [Craft Scheduler Thread - 403 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.UploadThread.uploadFile(UploadThread.java:414)
+[00:39:14] [Craft Scheduler Thread - 403 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.UploadThread.uploadBackupFiles(UploadThread.java:383)
+[00:39:14] [Craft Scheduler Thread - 403 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.UploadThread.run(UploadThread.java:273)
+[00:39:14] [Craft Scheduler Thread - 403 - DriveBackupV2/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101)
+[00:39:14] [Craft Scheduler Thread - 403 - DriveBackupV2/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+[00:39:14] [Craft Scheduler Thread - 403 - DriveBackupV2/WARN]: 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+[00:39:14] [Craft Scheduler Thread - 403 - DriveBackupV2/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[00:39:14] [Craft Scheduler Thread - 403 - DriveBackupV2/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[00:39:14] [Craft Scheduler Thread - 403 - DriveBackupV2/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[00:39:14] [Craft Scheduler Thread - 403 - DriveBackupV2/INFO]: [Aventura Triki Traka] Failed to upload
+[00:39:14] [Craft Scheduler Thread - 403 - DriveBackupV2/INFO]: [Aventura Triki Traka] Upload(s) for file "Backup-world_the_end-2024-12-15--00-38.zip" complete
+[00:39:14] [Craft Scheduler Thread - 403 - DriveBackupV2/INFO]: [Aventura Triki Traka] Starting upload(s) for file "/workspaces/TrikiTraka-3/servidor_minecraft/backups/plugins/Backup-plugins-2024-12-15--00-38.zip"
+[00:39:14] [Craft Scheduler Thread - 403 - DriveBackupV2/INFO]: [Aventura Triki Traka] Uploading file to Google Drive
+[00:39:19] [Craft Scheduler Thread - 403 - DriveBackupV2/INFO]: [Aventura Triki Traka] File uploaded in 4.73 seconds (29684.47KB/s)
+[00:39:19] [Craft Scheduler Thread - 403 - DriveBackupV2/INFO]: [Aventura Triki Traka] Uploading file to OneDrive
+[00:39:20] [Craft Scheduler Thread - 403 - DriveBackupV2/WARN]: ratismal.drivebackup.uploaders.onedrive.GraphApiErrorException: 507 quotaLimitReached : "Quota limit reached"
+[00:39:20] [Craft Scheduler Thread - 403 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.uploaders.onedrive.OneDriveUploader.createUploadSession(OneDriveUploader.java:462)
+[00:39:20] [Craft Scheduler Thread - 403 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.uploaders.onedrive.OneDriveUploader.uploadFile(OneDriveUploader.java:135)
+[00:39:20] [Craft Scheduler Thread - 403 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.UploadThread.uploadFile(UploadThread.java:414)
+[00:39:20] [Craft Scheduler Thread - 403 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.UploadThread.uploadBackupFiles(UploadThread.java:383)
+[00:39:20] [Craft Scheduler Thread - 403 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.UploadThread.run(UploadThread.java:273)
+[00:39:20] [Craft Scheduler Thread - 403 - DriveBackupV2/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101)
+[00:39:20] [Craft Scheduler Thread - 403 - DriveBackupV2/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+[00:39:20] [Craft Scheduler Thread - 403 - DriveBackupV2/WARN]: 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+[00:39:20] [Craft Scheduler Thread - 403 - DriveBackupV2/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[00:39:20] [Craft Scheduler Thread - 403 - DriveBackupV2/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[00:39:20] [Craft Scheduler Thread - 403 - DriveBackupV2/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[00:39:20] [Craft Scheduler Thread - 403 - DriveBackupV2/INFO]: [Aventura Triki Traka] Failed to upload
+[00:39:20] [Craft Scheduler Thread - 403 - DriveBackupV2/INFO]: [Aventura Triki Traka] Upload(s) for file "Backup-plugins-2024-12-15--00-38.zip" complete
+[00:39:20] [Craft Scheduler Thread - 403 - DriveBackupV2/INFO]: [Aventura Triki Traka] Backup(s) uploaded
+[00:39:20] [Craft Scheduler Thread - 403 - DriveBackupV2/INFO]: [Aventura Triki Traka] Checking for upload errors...
+[00:39:20] [Craft Scheduler Thread - 403 - DriveBackupV2/INFO]: [Aventura Triki Traka] Backup to Google Drive complete
+[00:39:20] [Craft Scheduler Thread - 403 - DriveBackupV2/INFO]: [Aventura Triki Traka] Failed to backup to OneDrive, verify all credentials are correct or diagnose the problem with /drivebackup test onedrive
+[00:39:20] [Craft Scheduler Thread - 403 - DriveBackupV2/INFO]: [Aventura Triki Traka] Backup complete
+[00:39:20] [Craft Scheduler Thread - 403 - DriveBackupV2/INFO]: [Aventura Triki Traka] The next backup is in 17 minutes
+[00:39:20] [Craft Scheduler Thread - 403 - DriveBackupV2/INFO]: [Aventura Triki Traka] Pruning local backups
+[00:39:20] [Craft Scheduler Thread - 403 - DriveBackupV2/INFO]: [Aventura Triki Traka] Pruning local backups for "./world"
+[00:39:20] [Craft Scheduler Thread - 403 - DriveBackupV2/INFO]: [Aventura Triki Traka] There are 1 file(s) which exceeds the local limit of 0, deleting oldest
+[00:39:21] [Craft Scheduler Thread - 403 - DriveBackupV2/INFO]: [Aventura Triki Traka] Deleted local backup "Backup-world-2024-12-15--00-37.zip"
+[00:39:21] [Craft Scheduler Thread - 403 - DriveBackupV2/INFO]: [Aventura Triki Traka] Local backup pruning complete for "./world"
+[00:39:21] [Craft Scheduler Thread - 403 - DriveBackupV2/INFO]: [Aventura Triki Traka] Pruning local backups for "./world_the_end"
+[00:39:21] [Craft Scheduler Thread - 403 - DriveBackupV2/INFO]: [Aventura Triki Traka] There are 1 file(s) which exceeds the local limit of 0, deleting oldest
+[00:39:21] [Craft Scheduler Thread - 403 - DriveBackupV2/INFO]: [Aventura Triki Traka] Deleted local backup "Backup-world_the_end-2024-12-15--00-38.zip"
+[00:39:21] [Craft Scheduler Thread - 403 - DriveBackupV2/INFO]: [Aventura Triki Traka] Local backup pruning complete for "./world_the_end"
+[00:39:21] [Craft Scheduler Thread - 403 - DriveBackupV2/INFO]: [Aventura Triki Traka] Pruning local backups for "plugins"
+[00:39:21] [Craft Scheduler Thread - 403 - DriveBackupV2/INFO]: [Aventura Triki Traka] There are 1 file(s) which exceeds the local limit of 0, deleting oldest
+[00:39:21] [Craft Scheduler Thread - 403 - DriveBackupV2/INFO]: [Aventura Triki Traka] Deleted local backup "Backup-plugins-2024-12-15--00-38.zip"
+[00:39:21] [Craft Scheduler Thread - 403 - DriveBackupV2/INFO]: [Aventura Triki Traka] Local backup pruning complete for "plugins"
+[00:39:21] [Craft Scheduler Thread - 403 - DriveBackupV2/INFO]: [Aventura Triki Traka] Pruning local backups for "./world_nether"
+[00:39:21] [Craft Scheduler Thread - 403 - DriveBackupV2/INFO]: [Aventura Triki Traka] There are 1 file(s) which exceeds the local limit of 0, deleting oldest
+[00:39:21] [Craft Scheduler Thread - 403 - DriveBackupV2/INFO]: [Aventura Triki Traka] Deleted local backup "Backup-world_nether-2024-12-15--00-38.zip"
+[00:39:21] [Craft Scheduler Thread - 403 - DriveBackupV2/INFO]: [Aventura Triki Traka] Local backup pruning complete for "./world_nether"
+[00:39:21] [Craft Scheduler Thread - 403 - DriveBackupV2/INFO]: [Aventura Triki Traka] Local backup pruning complete
+[00:39:21] [Craft Scheduler Thread - 403 - DriveBackupV2/INFO]: [Aventura Triki Traka] Backup took 121 seconds to compleate
+[00:40:50] [Server thread/INFO]: Ledacar lost connection: Disconnected
+[00:40:50] [Server thread/INFO]: Ledacar left the game
+[00:41:32] [User Authenticator #6/INFO]: UUID of player Ledacar is 4bf01243-e00c-3586-8932-a5b574a5a30b
+[00:41:33] [Server thread/INFO]: Ledacar joined the game
+[00:41:33] [TAB Processing Thread/INFO]: [TAB] [WARN] Player Ledacar's group (padawan) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[00:41:33] [Server thread/INFO]: Ledacar[/127.248.139.138:54733] logged in with entity id 22589 at ([world]-225.0311606861546, 91.0, -1870.6813692713536)
+[00:41:58] [Server thread/INFO]: Ledacar issued server command: /skin https://www.minecraftskins.com/skin/22932304/deadpool--deadpool-and-wolverine-/
+[00:42:05] [Server thread/INFO]: Ledacar issued server command: /skin Ledacar
+[00:42:06] [ForkJoinPool.commonPool-worker-1/WARN]: java.lang.IllegalArgumentException: Unknown standard bukkit form: ENTITY_GOAT_SCREAMING_HORN_BREAK named ENTITY_GOAT_SCREAMING_HORN_BREAK
+[00:42:06] [ForkJoinPool.commonPool-worker-1/WARN]: 	at SkinsRestorer.jar//net.skinsrestorer.shadow.xseries.base.XRegistry.std(XRegistry.java:302)
+[00:42:06] [ForkJoinPool.commonPool-worker-1/WARN]: 	at SkinsRestorer.jar//net.skinsrestorer.shadow.xseries.base.XRegistry.std(XRegistry.java:288)
+[00:42:06] [ForkJoinPool.commonPool-worker-1/WARN]: 	at SkinsRestorer.jar//net.skinsrestorer.shadow.xseries.base.XRegistry.pullSystemValues(XRegistry.java:123)
+[00:42:06] [ForkJoinPool.commonPool-worker-1/WARN]: 	at SkinsRestorer.jar//net.skinsrestorer.shadow.xseries.base.XRegistry.pullValues(XRegistry.java:86)
+[00:42:06] [ForkJoinPool.commonPool-worker-1/WARN]: 	at SkinsRestorer.jar//net.skinsrestorer.shadow.xseries.base.XRegistry.getByName(XRegistry.java:219)
+[00:42:06] [ForkJoinPool.commonPool-worker-1/WARN]: 	at SkinsRestorer.jar//net.skinsrestorer.shadow.xseries.XSound.matchXSound(XSound.java:1802)
+[00:42:06] [ForkJoinPool.commonPool-worker-1/WARN]: 	at SkinsRestorer.jar//net.skinsrestorer.bukkit.utils.SoundUtil.playSound(SoundUtil.java:51)
+[00:42:06] [ForkJoinPool.commonPool-worker-1/WARN]: 	at SkinsRestorer.jar//net.skinsrestorer.bukkit.utils.BukkitSoundProvider.accept(BukkitSoundProvider.java:27)
+[00:42:06] [ForkJoinPool.commonPool-worker-1/WARN]: 	at SkinsRestorer.jar//net.skinsrestorer.bukkit.utils.BukkitSoundProvider.accept(BukkitSoundProvider.java:24)
+[00:42:06] [ForkJoinPool.commonPool-worker-1/WARN]: 	at SkinsRestorer.jar//net.skinsrestorer.shared.api.SharedSkinApplier.lambda$applySkin$1(SharedSkinApplier.java:66)
+[00:42:06] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+[00:42:06] [ForkJoinPool.commonPool-worker-1/WARN]: 	at SkinsRestorer.jar//net.skinsrestorer.shared.api.SharedSkinApplier.applySkin(SharedSkinApplier.java:66)
+[00:42:06] [ForkJoinPool.commonPool-worker-1/WARN]: 	at SkinsRestorer.jar//net.skinsrestorer.shared.commands.SkinCommand.lambda$setSkin$6(SkinCommand.java:523)
+[00:42:06] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+[00:42:06] [ForkJoinPool.commonPool-worker-1/WARN]: 	at SkinsRestorer.jar//net.skinsrestorer.shared.commands.SkinCommand.setSkin(SkinCommand.java:523)
+[00:42:06] [ForkJoinPool.commonPool-worker-1/WARN]: 	at SkinsRestorer.jar//net.skinsrestorer.shared.commands.SkinCommand.onSkinSetOther(SkinCommand.java:299)
+[00:42:06] [ForkJoinPool.commonPool-worker-1/WARN]: 	at SkinsRestorer.jar//net.skinsrestorer.shared.commands.SkinCommand.onSkinSetShort(SkinCommand.java:153)
+[00:42:06] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/java.lang.invoke.MethodHandle.invokeWithArguments(MethodHandle.java:733)
+[00:42:06] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/java.lang.invoke.MethodHandle.invokeWithArguments(MethodHandle.java:758)
+[00:42:06] [ForkJoinPool.commonPool-worker-1/WARN]: 	at SkinsRestorer.jar//net.skinsrestorer.shadow.cloud.annotations.MethodCommandExecutionHandler.executeFuture(MethodCommandExecutionHandler.java:88)
+[00:42:06] [ForkJoinPool.commonPool-worker-1/WARN]: 	at SkinsRestorer.jar//net.skinsrestorer.shadow.cloud.execution.ExecutionCoordinatorImpl.lambda$coordinateExecution$4(ExecutionCoordinatorImpl.java:121)
+[00:42:06] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150)
+[00:42:06] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+[00:42:06] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+[00:42:06] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+[00:42:06] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+[00:42:06] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+[00:42:06] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+[00:42:16] [Server thread/INFO]: Ledacar issued server command: /skins https://www.minecraftskins.com/skin/22932304/deadpool--deadpool-and-wolverine-/
+[00:42:24] [Server thread/INFO]: Ledacar issued server command: /skins Ledacar
+[00:42:27] [Server thread/INFO]: Ledacar issued server command: /skin Ledacar
+[00:42:35] [Server thread/INFO]: Ledacar lost connection: Disconnected
+[00:42:35] [Server thread/INFO]: Ledacar left the game
+[00:43:38] [User Authenticator #7/INFO]: UUID of player Ledacar is 4bf01243-e00c-3586-8932-a5b574a5a30b
+[00:43:39] [TAB Processing Thread/INFO]: [TAB] [WARN] Player Ledacar's group (padawan) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[00:43:39] [Server thread/INFO]: Ledacar joined the game
+[00:43:39] [Server thread/INFO]: Ledacar[/127.248.139.138:54287] logged in with entity id 22825 at ([world]-224.29965946805962, 91.0, -1870.3437043456934)
+[00:44:48] [Server thread/INFO]: Ledacar lost connection: Disconnected
+[00:44:48] [Server thread/INFO]: Ledacar left the game
+[00:45:47] [User Authenticator #8/INFO]: UUID of player Ledacar is 4bf01243-e00c-3586-8932-a5b574a5a30b
+[00:45:48] [Server thread/INFO]: Ledacar joined the game
+[00:45:48] [Server thread/INFO]: Ledacar[/127.248.139.138:46193] logged in with entity id 23042 at ([world]-225.92433739190392, 91.0, -1872.8788800694117)
+[00:45:48] [TAB Processing Thread/INFO]: [TAB] [WARN] Player Ledacar's group (padawan) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[00:57:19] [Craft Scheduler Thread - 476 - DriveBackupV2/INFO]: [Aventura Triki Traka] Creating backups, the server may lag for a little while...
+[00:57:19] [Craft Scheduler Thread - 476 - DriveBackupV2/INFO]: [Aventura Triki Traka] Creating local backup(s) and compressing...
+[00:57:19] [Craft Scheduler Thread - 476 - DriveBackupV2/INFO]: [Aventura Triki Traka] Creating local backup for "./world"
+[00:57:36] [Server thread/INFO]: Ledacar has made the advancement [Respecting the Remnants]
+[00:57:41] [Server thread/INFO]: Ledacar has made the advancement [Smells Interesting]
+[00:58:27] [Craft Scheduler Thread - 476 - DriveBackupV2/INFO]: [Aventura Triki Traka] Local backup for "./world" created
+[00:58:27] [Craft Scheduler Thread - 476 - DriveBackupV2/INFO]: [Aventura Triki Traka] Creating local backup for "./world_nether"
+[00:58:29] [Craft Scheduler Thread - 476 - DriveBackupV2/INFO]: [Aventura Triki Traka] Local backup for "./world_nether" created
+[00:58:29] [Craft Scheduler Thread - 476 - DriveBackupV2/INFO]: [Aventura Triki Traka] Creating local backup for "./world_the_end"
+[00:58:29] [Craft Scheduler Thread - 476 - DriveBackupV2/INFO]: [Aventura Triki Traka] Local backup for "./world_the_end" created
+[00:58:29] [Craft Scheduler Thread - 476 - DriveBackupV2/INFO]: [Aventura Triki Traka] Creating local backup for "plugins"
+[00:58:37] [Craft Scheduler Thread - 476 - DriveBackupV2/INFO]: [Aventura Triki Traka] Local backup for "plugins" created
+[00:58:37] [Craft Scheduler Thread - 476 - DriveBackupV2/INFO]: [Aventura Triki Traka] Local backup(s) created and compressed
+[00:58:37] [Craft Scheduler Thread - 476 - DriveBackupV2/INFO]: [Aventura Triki Traka] Uploading backup(s)...
+[00:58:38] [Craft Scheduler Thread - 476 - DriveBackupV2/INFO]: [Aventura Triki Traka] Starting upload(s) for file "/workspaces/TrikiTraka-3/servidor_minecraft/backups/world/Backup-world-2024-12-15--00-57.zip"
+[00:58:38] [Craft Scheduler Thread - 476 - DriveBackupV2/INFO]: [Aventura Triki Traka] Uploading file to Google Drive
+[00:59:09] [Craft Scheduler Thread - 476 - DriveBackupV2/INFO]: [Aventura Triki Traka] File uploaded in 31.22 seconds (37203.76KB/s)
+[00:59:09] [Craft Scheduler Thread - 476 - DriveBackupV2/INFO]: [Aventura Triki Traka] Uploading file to OneDrive
+[00:59:10] [Craft Scheduler Thread - 476 - DriveBackupV2/WARN]: ratismal.drivebackup.uploaders.onedrive.GraphApiErrorException: 507 quotaLimitReached : "Quota limit reached"
+[00:59:10] [Craft Scheduler Thread - 476 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.uploaders.onedrive.OneDriveUploader.createUploadSession(OneDriveUploader.java:462)
+[00:59:10] [Craft Scheduler Thread - 476 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.uploaders.onedrive.OneDriveUploader.uploadFile(OneDriveUploader.java:135)
+[00:59:10] [Craft Scheduler Thread - 476 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.UploadThread.uploadFile(UploadThread.java:414)
+[00:59:10] [Craft Scheduler Thread - 476 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.UploadThread.uploadBackupFiles(UploadThread.java:383)
+[00:59:10] [Craft Scheduler Thread - 476 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.UploadThread.run(UploadThread.java:273)
+[00:59:10] [Craft Scheduler Thread - 476 - DriveBackupV2/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101)
+[00:59:10] [Craft Scheduler Thread - 476 - DriveBackupV2/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+[00:59:10] [Craft Scheduler Thread - 476 - DriveBackupV2/WARN]: 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+[00:59:10] [Craft Scheduler Thread - 476 - DriveBackupV2/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[00:59:10] [Craft Scheduler Thread - 476 - DriveBackupV2/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[00:59:10] [Craft Scheduler Thread - 476 - DriveBackupV2/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[00:59:10] [Craft Scheduler Thread - 476 - DriveBackupV2/INFO]: [Aventura Triki Traka] Failed to upload
+[00:59:10] [Craft Scheduler Thread - 476 - DriveBackupV2/INFO]: [Aventura Triki Traka] Upload(s) for file "Backup-world-2024-12-15--00-57.zip" complete
+[00:59:10] [Craft Scheduler Thread - 476 - DriveBackupV2/INFO]: [Aventura Triki Traka] Starting upload(s) for file "/workspaces/TrikiTraka-3/servidor_minecraft/backups/world_nether/Backup-world_nether-2024-12-15--00-58.zip"
+[00:59:10] [Craft Scheduler Thread - 476 - DriveBackupV2/INFO]: [Aventura Triki Traka] Uploading file to Google Drive
+[00:59:12] [Craft Scheduler Thread - 476 - DriveBackupV2/INFO]: [Aventura Triki Traka] File uploaded in 2.5 seconds (10886.75KB/s)
+[00:59:12] [Craft Scheduler Thread - 476 - DriveBackupV2/INFO]: [Aventura Triki Traka] Uploading file to OneDrive
+[00:59:13] [Craft Scheduler Thread - 476 - DriveBackupV2/WARN]: ratismal.drivebackup.uploaders.onedrive.GraphApiErrorException: 507 quotaLimitReached : "Quota limit reached"
+[00:59:13] [Craft Scheduler Thread - 476 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.uploaders.onedrive.OneDriveUploader.createUploadSession(OneDriveUploader.java:462)
+[00:59:13] [Craft Scheduler Thread - 476 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.uploaders.onedrive.OneDriveUploader.uploadFile(OneDriveUploader.java:135)
+[00:59:13] [Craft Scheduler Thread - 476 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.UploadThread.uploadFile(UploadThread.java:414)
+[00:59:13] [Craft Scheduler Thread - 476 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.UploadThread.uploadBackupFiles(UploadThread.java:383)
+[00:59:13] [Craft Scheduler Thread - 476 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.UploadThread.run(UploadThread.java:273)
+[00:59:13] [Craft Scheduler Thread - 476 - DriveBackupV2/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101)
+[00:59:13] [Craft Scheduler Thread - 476 - DriveBackupV2/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+[00:59:13] [Craft Scheduler Thread - 476 - DriveBackupV2/WARN]: 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+[00:59:13] [Craft Scheduler Thread - 476 - DriveBackupV2/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[00:59:13] [Craft Scheduler Thread - 476 - DriveBackupV2/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[00:59:13] [Craft Scheduler Thread - 476 - DriveBackupV2/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[00:59:13] [Craft Scheduler Thread - 476 - DriveBackupV2/INFO]: [Aventura Triki Traka] Failed to upload
+[00:59:13] [Craft Scheduler Thread - 476 - DriveBackupV2/INFO]: [Aventura Triki Traka] Upload(s) for file "Backup-world_nether-2024-12-15--00-58.zip" complete
+[00:59:13] [Craft Scheduler Thread - 476 - DriveBackupV2/INFO]: [Aventura Triki Traka] Starting upload(s) for file "/workspaces/TrikiTraka-3/servidor_minecraft/backups/world_the_end/Backup-world_the_end-2024-12-15--00-58.zip"
+[00:59:13] [Craft Scheduler Thread - 476 - DriveBackupV2/INFO]: [Aventura Triki Traka] Uploading file to Google Drive
+[00:59:14] [Craft Scheduler Thread - 476 - DriveBackupV2/INFO]: [Aventura Triki Traka] File uploaded in 1.6 seconds (197.84KB/s)
+[00:59:14] [Craft Scheduler Thread - 476 - DriveBackupV2/INFO]: [Aventura Triki Traka] Uploading file to OneDrive
+[00:59:15] [Craft Scheduler Thread - 476 - DriveBackupV2/WARN]: ratismal.drivebackup.uploaders.onedrive.GraphApiErrorException: 507 quotaLimitReached : "Quota limit reached"
+[00:59:15] [Craft Scheduler Thread - 476 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.uploaders.onedrive.OneDriveUploader.createUploadSession(OneDriveUploader.java:462)
+[00:59:15] [Craft Scheduler Thread - 476 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.uploaders.onedrive.OneDriveUploader.uploadFile(OneDriveUploader.java:135)
+[00:59:15] [Craft Scheduler Thread - 476 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.UploadThread.uploadFile(UploadThread.java:414)
+[00:59:15] [Craft Scheduler Thread - 476 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.UploadThread.uploadBackupFiles(UploadThread.java:383)
+[00:59:15] [Craft Scheduler Thread - 476 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.UploadThread.run(UploadThread.java:273)
+[00:59:15] [Craft Scheduler Thread - 476 - DriveBackupV2/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101)
+[00:59:15] [Craft Scheduler Thread - 476 - DriveBackupV2/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+[00:59:15] [Craft Scheduler Thread - 476 - DriveBackupV2/WARN]: 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+[00:59:15] [Craft Scheduler Thread - 476 - DriveBackupV2/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[00:59:15] [Craft Scheduler Thread - 476 - DriveBackupV2/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[00:59:15] [Craft Scheduler Thread - 476 - DriveBackupV2/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[00:59:15] [Craft Scheduler Thread - 476 - DriveBackupV2/INFO]: [Aventura Triki Traka] Failed to upload
+[00:59:15] [Craft Scheduler Thread - 476 - DriveBackupV2/INFO]: [Aventura Triki Traka] Upload(s) for file "Backup-world_the_end-2024-12-15--00-58.zip" complete
+[00:59:15] [Craft Scheduler Thread - 476 - DriveBackupV2/INFO]: [Aventura Triki Traka] Starting upload(s) for file "/workspaces/TrikiTraka-3/servidor_minecraft/backups/plugins/Backup-plugins-2024-12-15--00-58.zip"
+[00:59:15] [Craft Scheduler Thread - 476 - DriveBackupV2/INFO]: [Aventura Triki Traka] Uploading file to Google Drive
+[00:59:20] [Craft Scheduler Thread - 476 - DriveBackupV2/INFO]: [Aventura Triki Traka] File uploaded in 4.37 seconds (32134.59KB/s)
+[00:59:20] [Craft Scheduler Thread - 476 - DriveBackupV2/INFO]: [Aventura Triki Traka] Uploading file to OneDrive
+[00:59:21] [Craft Scheduler Thread - 476 - DriveBackupV2/WARN]: ratismal.drivebackup.uploaders.onedrive.GraphApiErrorException: 507 quotaLimitReached : "Quota limit reached"
+[00:59:21] [Craft Scheduler Thread - 476 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.uploaders.onedrive.OneDriveUploader.createUploadSession(OneDriveUploader.java:462)
+[00:59:21] [Craft Scheduler Thread - 476 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.uploaders.onedrive.OneDriveUploader.uploadFile(OneDriveUploader.java:135)
+[00:59:21] [Craft Scheduler Thread - 476 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.UploadThread.uploadFile(UploadThread.java:414)
+[00:59:21] [Craft Scheduler Thread - 476 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.UploadThread.uploadBackupFiles(UploadThread.java:383)
+[00:59:21] [Craft Scheduler Thread - 476 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.UploadThread.run(UploadThread.java:273)
+[00:59:21] [Craft Scheduler Thread - 476 - DriveBackupV2/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101)
+[00:59:21] [Craft Scheduler Thread - 476 - DriveBackupV2/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+[00:59:21] [Craft Scheduler Thread - 476 - DriveBackupV2/WARN]: 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+[00:59:21] [Craft Scheduler Thread - 476 - DriveBackupV2/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[00:59:21] [Craft Scheduler Thread - 476 - DriveBackupV2/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[00:59:21] [Craft Scheduler Thread - 476 - DriveBackupV2/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[00:59:21] [Craft Scheduler Thread - 476 - DriveBackupV2/INFO]: [Aventura Triki Traka] Failed to upload
+[00:59:21] [Craft Scheduler Thread - 476 - DriveBackupV2/INFO]: [Aventura Triki Traka] Upload(s) for file "Backup-plugins-2024-12-15--00-58.zip" complete
+[00:59:21] [Craft Scheduler Thread - 476 - DriveBackupV2/INFO]: [Aventura Triki Traka] Backup(s) uploaded
+[00:59:21] [Craft Scheduler Thread - 476 - DriveBackupV2/INFO]: [Aventura Triki Traka] Checking for upload errors...
+[00:59:21] [Craft Scheduler Thread - 476 - DriveBackupV2/INFO]: [Aventura Triki Traka] Backup to Google Drive complete
+[00:59:21] [Craft Scheduler Thread - 476 - DriveBackupV2/INFO]: [Aventura Triki Traka] Failed to backup to OneDrive, verify all credentials are correct or diagnose the problem with /drivebackup test onedrive
+[00:59:21] [Craft Scheduler Thread - 476 - DriveBackupV2/INFO]: [Aventura Triki Traka] Backup complete
+[00:59:21] [Craft Scheduler Thread - 476 - DriveBackupV2/INFO]: [Aventura Triki Traka] The next backup is in 17 minutes
+[00:59:21] [Craft Scheduler Thread - 476 - DriveBackupV2/INFO]: [Aventura Triki Traka] Pruning local backups
+[00:59:21] [Craft Scheduler Thread - 476 - DriveBackupV2/INFO]: [Aventura Triki Traka] Pruning local backups for "./world"
+[00:59:21] [Craft Scheduler Thread - 476 - DriveBackupV2/INFO]: [Aventura Triki Traka] There are 1 file(s) which exceeds the local limit of 0, deleting oldest
+[00:59:21] [Craft Scheduler Thread - 476 - DriveBackupV2/INFO]: [Aventura Triki Traka] Deleted local backup "Backup-world-2024-12-15--00-57.zip"
+[00:59:21] [Craft Scheduler Thread - 476 - DriveBackupV2/INFO]: [Aventura Triki Traka] Local backup pruning complete for "./world"
+[00:59:21] [Craft Scheduler Thread - 476 - DriveBackupV2/INFO]: [Aventura Triki Traka] Pruning local backups for "./world_the_end"
+[00:59:21] [Craft Scheduler Thread - 476 - DriveBackupV2/INFO]: [Aventura Triki Traka] There are 1 file(s) which exceeds the local limit of 0, deleting oldest
+[00:59:21] [Craft Scheduler Thread - 476 - DriveBackupV2/INFO]: [Aventura Triki Traka] Deleted local backup "Backup-world_the_end-2024-12-15--00-58.zip"
+[00:59:21] [Craft Scheduler Thread - 476 - DriveBackupV2/INFO]: [Aventura Triki Traka] Local backup pruning complete for "./world_the_end"
+[00:59:21] [Craft Scheduler Thread - 476 - DriveBackupV2/INFO]: [Aventura Triki Traka] Pruning local backups for "plugins"
+[00:59:21] [Craft Scheduler Thread - 476 - DriveBackupV2/INFO]: [Aventura Triki Traka] There are 1 file(s) which exceeds the local limit of 0, deleting oldest
+[00:59:21] [Craft Scheduler Thread - 476 - DriveBackupV2/INFO]: [Aventura Triki Traka] Deleted local backup "Backup-plugins-2024-12-15--00-58.zip"
+[00:59:21] [Craft Scheduler Thread - 476 - DriveBackupV2/INFO]: [Aventura Triki Traka] Local backup pruning complete for "plugins"
+[00:59:21] [Craft Scheduler Thread - 476 - DriveBackupV2/INFO]: [Aventura Triki Traka] Pruning local backups for "./world_nether"
+[00:59:21] [Craft Scheduler Thread - 476 - DriveBackupV2/INFO]: [Aventura Triki Traka] There are 1 file(s) which exceeds the local limit of 0, deleting oldest
+[00:59:21] [Craft Scheduler Thread - 476 - DriveBackupV2/INFO]: [Aventura Triki Traka] Deleted local backup "Backup-world_nether-2024-12-15--00-58.zip"
+[00:59:21] [Craft Scheduler Thread - 476 - DriveBackupV2/INFO]: [Aventura Triki Traka] Local backup pruning complete for "./world_nether"
+[00:59:21] [Craft Scheduler Thread - 476 - DriveBackupV2/INFO]: [Aventura Triki Traka] Local backup pruning complete
+[00:59:21] [Craft Scheduler Thread - 476 - DriveBackupV2/INFO]: [Aventura Triki Traka] Backup took 122 seconds to compleate
+[01:13:12] [Server thread/INFO]: Ledacar lost connection: Disconnected
+[01:13:12] [Server thread/INFO]: Ledacar left the game
+[01:13:15] [Server thread/INFO]: Ranpool201 lost connection: Disconnected
+[01:13:15] [Server thread/INFO]: Ranpool201 left the game
+[01:17:19] [Craft Scheduler Thread - 551 - DriveBackupV2/INFO]: [Aventura Triki Traka] Creating backups, the server may lag for a little while...
+[01:17:19] [Craft Scheduler Thread - 551 - DriveBackupV2/INFO]: [Aventura Triki Traka] Creating local backup(s) and compressing...
+[01:17:19] [Craft Scheduler Thread - 551 - DriveBackupV2/INFO]: [Aventura Triki Traka] Creating local backup for "./world"
+[01:18:26] [Craft Scheduler Thread - 551 - DriveBackupV2/INFO]: [Aventura Triki Traka] Local backup for "./world" created
+[01:18:26] [Craft Scheduler Thread - 551 - DriveBackupV2/INFO]: [Aventura Triki Traka] Creating local backup for "./world_nether"
+[01:18:28] [Craft Scheduler Thread - 551 - DriveBackupV2/INFO]: [Aventura Triki Traka] Local backup for "./world_nether" created
+[01:18:28] [Craft Scheduler Thread - 551 - DriveBackupV2/INFO]: [Aventura Triki Traka] Creating local backup for "./world_the_end"
+[01:18:28] [Craft Scheduler Thread - 551 - DriveBackupV2/INFO]: [Aventura Triki Traka] Local backup for "./world_the_end" created
+[01:18:28] [Craft Scheduler Thread - 551 - DriveBackupV2/INFO]: [Aventura Triki Traka] Creating local backup for "plugins"
+[01:18:36] [Craft Scheduler Thread - 551 - DriveBackupV2/INFO]: [Aventura Triki Traka] Local backup for "plugins" created
+[01:18:36] [Craft Scheduler Thread - 551 - DriveBackupV2/INFO]: [Aventura Triki Traka] Local backup(s) created and compressed
+[01:18:36] [Craft Scheduler Thread - 551 - DriveBackupV2/INFO]: [Aventura Triki Traka] Uploading backup(s)...
+[01:18:37] [Craft Scheduler Thread - 551 - DriveBackupV2/INFO]: [Aventura Triki Traka] Starting upload(s) for file "/workspaces/TrikiTraka-3/servidor_minecraft/backups/world/Backup-world-2024-12-15--01-17.zip"
+[01:18:37] [Craft Scheduler Thread - 551 - DriveBackupV2/INFO]: [Aventura Triki Traka] Uploading file to Google Drive
+[01:19:13] [Craft Scheduler Thread - 551 - DriveBackupV2/INFO]: [Aventura Triki Traka] File uploaded in 36.54 seconds (31801.6KB/s)
+[01:19:13] [Craft Scheduler Thread - 551 - DriveBackupV2/INFO]: [Aventura Triki Traka] Uploading file to OneDrive
+[01:19:14] [Craft Scheduler Thread - 551 - DriveBackupV2/WARN]: ratismal.drivebackup.uploaders.onedrive.GraphApiErrorException: 507 quotaLimitReached : "Quota limit reached"
+[01:19:14] [Craft Scheduler Thread - 551 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.uploaders.onedrive.OneDriveUploader.createUploadSession(OneDriveUploader.java:462)
+[01:19:14] [Craft Scheduler Thread - 551 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.uploaders.onedrive.OneDriveUploader.uploadFile(OneDriveUploader.java:135)
+[01:19:14] [Craft Scheduler Thread - 551 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.UploadThread.uploadFile(UploadThread.java:414)
+[01:19:14] [Craft Scheduler Thread - 551 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.UploadThread.uploadBackupFiles(UploadThread.java:383)
+[01:19:14] [Craft Scheduler Thread - 551 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.UploadThread.run(UploadThread.java:273)
+[01:19:14] [Craft Scheduler Thread - 551 - DriveBackupV2/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101)
+[01:19:14] [Craft Scheduler Thread - 551 - DriveBackupV2/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+[01:19:14] [Craft Scheduler Thread - 551 - DriveBackupV2/WARN]: 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+[01:19:14] [Craft Scheduler Thread - 551 - DriveBackupV2/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[01:19:14] [Craft Scheduler Thread - 551 - DriveBackupV2/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[01:19:14] [Craft Scheduler Thread - 551 - DriveBackupV2/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[01:19:14] [Craft Scheduler Thread - 551 - DriveBackupV2/INFO]: [Aventura Triki Traka] Failed to upload
+[01:19:14] [Craft Scheduler Thread - 551 - DriveBackupV2/INFO]: [Aventura Triki Traka] Upload(s) for file "Backup-world-2024-12-15--01-17.zip" complete
+[01:19:14] [Craft Scheduler Thread - 551 - DriveBackupV2/INFO]: [Aventura Triki Traka] Starting upload(s) for file "/workspaces/TrikiTraka-3/servidor_minecraft/backups/world_nether/Backup-world_nether-2024-12-15--01-18.zip"
+[01:19:14] [Craft Scheduler Thread - 551 - DriveBackupV2/INFO]: [Aventura Triki Traka] Uploading file to Google Drive
+[01:19:16] [Craft Scheduler Thread - 551 - DriveBackupV2/INFO]: [Aventura Triki Traka] File uploaded in 2.13 seconds (12782.88KB/s)
+[01:19:16] [Craft Scheduler Thread - 551 - DriveBackupV2/INFO]: [Aventura Triki Traka] Uploading file to OneDrive
+[01:19:17] [Craft Scheduler Thread - 551 - DriveBackupV2/WARN]: ratismal.drivebackup.uploaders.onedrive.GraphApiErrorException: 507 quotaLimitReached : "Quota limit reached"
+[01:19:17] [Craft Scheduler Thread - 551 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.uploaders.onedrive.OneDriveUploader.createUploadSession(OneDriveUploader.java:462)
+[01:19:17] [Craft Scheduler Thread - 551 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.uploaders.onedrive.OneDriveUploader.uploadFile(OneDriveUploader.java:135)
+[01:19:17] [Craft Scheduler Thread - 551 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.UploadThread.uploadFile(UploadThread.java:414)
+[01:19:17] [Craft Scheduler Thread - 551 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.UploadThread.uploadBackupFiles(UploadThread.java:383)
+[01:19:17] [Craft Scheduler Thread - 551 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.UploadThread.run(UploadThread.java:273)
+[01:19:17] [Craft Scheduler Thread - 551 - DriveBackupV2/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101)
+[01:19:17] [Craft Scheduler Thread - 551 - DriveBackupV2/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+[01:19:17] [Craft Scheduler Thread - 551 - DriveBackupV2/WARN]: 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+[01:19:17] [Craft Scheduler Thread - 551 - DriveBackupV2/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[01:19:17] [Craft Scheduler Thread - 551 - DriveBackupV2/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[01:19:17] [Craft Scheduler Thread - 551 - DriveBackupV2/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[01:19:17] [Craft Scheduler Thread - 551 - DriveBackupV2/INFO]: [Aventura Triki Traka] Failed to upload
+[01:19:17] [Craft Scheduler Thread - 551 - DriveBackupV2/INFO]: [Aventura Triki Traka] Upload(s) for file "Backup-world_nether-2024-12-15--01-18.zip" complete
+[01:19:17] [Craft Scheduler Thread - 551 - DriveBackupV2/INFO]: [Aventura Triki Traka] Starting upload(s) for file "/workspaces/TrikiTraka-3/servidor_minecraft/backups/world_the_end/Backup-world_the_end-2024-12-15--01-18.zip"
+[01:19:17] [Craft Scheduler Thread - 551 - DriveBackupV2/INFO]: [Aventura Triki Traka] Uploading file to Google Drive
+[01:19:18] [Craft Scheduler Thread - 551 - DriveBackupV2/INFO]: [Aventura Triki Traka] File uploaded in 1.42 seconds (223.65KB/s)
+[01:19:18] [Craft Scheduler Thread - 551 - DriveBackupV2/INFO]: [Aventura Triki Traka] Uploading file to OneDrive
+[01:19:20] [Craft Scheduler Thread - 551 - DriveBackupV2/WARN]: ratismal.drivebackup.uploaders.onedrive.GraphApiErrorException: 507 quotaLimitReached : "Quota limit reached"
+[01:19:20] [Craft Scheduler Thread - 551 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.uploaders.onedrive.OneDriveUploader.createUploadSession(OneDriveUploader.java:462)
+[01:19:20] [Craft Scheduler Thread - 551 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.uploaders.onedrive.OneDriveUploader.uploadFile(OneDriveUploader.java:135)
+[01:19:20] [Craft Scheduler Thread - 551 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.UploadThread.uploadFile(UploadThread.java:414)
+[01:19:20] [Craft Scheduler Thread - 551 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.UploadThread.uploadBackupFiles(UploadThread.java:383)
+[01:19:20] [Craft Scheduler Thread - 551 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.UploadThread.run(UploadThread.java:273)
+[01:19:20] [Craft Scheduler Thread - 551 - DriveBackupV2/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101)
+[01:19:20] [Craft Scheduler Thread - 551 - DriveBackupV2/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+[01:19:20] [Craft Scheduler Thread - 551 - DriveBackupV2/WARN]: 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+[01:19:20] [Craft Scheduler Thread - 551 - DriveBackupV2/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[01:19:20] [Craft Scheduler Thread - 551 - DriveBackupV2/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[01:19:20] [Craft Scheduler Thread - 551 - DriveBackupV2/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[01:19:20] [Craft Scheduler Thread - 551 - DriveBackupV2/INFO]: [Aventura Triki Traka] Failed to upload
+[01:19:20] [Craft Scheduler Thread - 551 - DriveBackupV2/INFO]: [Aventura Triki Traka] Upload(s) for file "Backup-world_the_end-2024-12-15--01-18.zip" complete
+[01:19:20] [Craft Scheduler Thread - 551 - DriveBackupV2/INFO]: [Aventura Triki Traka] Starting upload(s) for file "/workspaces/TrikiTraka-3/servidor_minecraft/backups/plugins/Backup-plugins-2024-12-15--01-18.zip"
+[01:19:20] [Craft Scheduler Thread - 551 - DriveBackupV2/INFO]: [Aventura Triki Traka] Uploading file to Google Drive
+[01:19:24] [Craft Scheduler Thread - 551 - DriveBackupV2/INFO]: [Aventura Triki Traka] File uploaded in 4.67 seconds (30065.18KB/s)
+[01:19:24] [Craft Scheduler Thread - 551 - DriveBackupV2/INFO]: [Aventura Triki Traka] Uploading file to OneDrive
+[01:19:25] [Craft Scheduler Thread - 551 - DriveBackupV2/WARN]: ratismal.drivebackup.uploaders.onedrive.GraphApiErrorException: 507 quotaLimitReached : "Quota limit reached"
+[01:19:25] [Craft Scheduler Thread - 551 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.uploaders.onedrive.OneDriveUploader.createUploadSession(OneDriveUploader.java:462)
+[01:19:25] [Craft Scheduler Thread - 551 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.uploaders.onedrive.OneDriveUploader.uploadFile(OneDriveUploader.java:135)
+[01:19:25] [Craft Scheduler Thread - 551 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.UploadThread.uploadFile(UploadThread.java:414)
+[01:19:25] [Craft Scheduler Thread - 551 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.UploadThread.uploadBackupFiles(UploadThread.java:383)
+[01:19:25] [Craft Scheduler Thread - 551 - DriveBackupV2/WARN]: 	at DriveBackupV2.jar//ratismal.drivebackup.UploadThread.run(UploadThread.java:273)
+[01:19:25] [Craft Scheduler Thread - 551 - DriveBackupV2/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101)
+[01:19:25] [Craft Scheduler Thread - 551 - DriveBackupV2/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+[01:19:25] [Craft Scheduler Thread - 551 - DriveBackupV2/WARN]: 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+[01:19:25] [Craft Scheduler Thread - 551 - DriveBackupV2/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[01:19:25] [Craft Scheduler Thread - 551 - DriveBackupV2/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[01:19:25] [Craft Scheduler Thread - 551 - DriveBackupV2/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[01:19:25] [Craft Scheduler Thread - 551 - DriveBackupV2/INFO]: [Aventura Triki Traka] Failed to upload
+[01:19:25] [Craft Scheduler Thread - 551 - DriveBackupV2/INFO]: [Aventura Triki Traka] Upload(s) for file "Backup-plugins-2024-12-15--01-18.zip" complete
+[01:19:25] [Craft Scheduler Thread - 551 - DriveBackupV2/INFO]: [Aventura Triki Traka] Backup(s) uploaded
+[01:19:25] [Craft Scheduler Thread - 551 - DriveBackupV2/INFO]: [Aventura Triki Traka] Checking for upload errors...
+[01:19:25] [Craft Scheduler Thread - 551 - DriveBackupV2/INFO]: [Aventura Triki Traka] Backup to Google Drive complete
+[01:19:25] [Craft Scheduler Thread - 551 - DriveBackupV2/INFO]: [Aventura Triki Traka] Failed to backup to OneDrive, verify all credentials are correct or diagnose the problem with /drivebackup test onedrive
+[01:19:25] [Craft Scheduler Thread - 551 - DriveBackupV2/INFO]: [Aventura Triki Traka] Backup complete
+[01:19:25] [Craft Scheduler Thread - 551 - DriveBackupV2/INFO]: [Aventura Triki Traka] The next backup is in 17 minutes
+[01:19:25] [Craft Scheduler Thread - 551 - DriveBackupV2/INFO]: [Aventura Triki Traka] Disabling automatic backups due to inactivity
+[01:19:25] [Craft Scheduler Thread - 551 - DriveBackupV2/INFO]: [Aventura Triki Traka] Pruning local backups
+[01:19:25] [Craft Scheduler Thread - 551 - DriveBackupV2/INFO]: [Aventura Triki Traka] Pruning local backups for "./world"
+[01:19:25] [Craft Scheduler Thread - 551 - DriveBackupV2/INFO]: [Aventura Triki Traka] There are 1 file(s) which exceeds the local limit of 0, deleting oldest
+[01:19:25] [Craft Scheduler Thread - 551 - DriveBackupV2/INFO]: [Aventura Triki Traka] Deleted local backup "Backup-world-2024-12-15--01-17.zip"
+[01:19:25] [Craft Scheduler Thread - 551 - DriveBackupV2/INFO]: [Aventura Triki Traka] Local backup pruning complete for "./world"
+[01:19:25] [Craft Scheduler Thread - 551 - DriveBackupV2/INFO]: [Aventura Triki Traka] Pruning local backups for "./world_the_end"
+[01:19:25] [Craft Scheduler Thread - 551 - DriveBackupV2/INFO]: [Aventura Triki Traka] There are 1 file(s) which exceeds the local limit of 0, deleting oldest
+[01:19:25] [Craft Scheduler Thread - 551 - DriveBackupV2/INFO]: [Aventura Triki Traka] Deleted local backup "Backup-world_the_end-2024-12-15--01-18.zip"
+[01:19:25] [Craft Scheduler Thread - 551 - DriveBackupV2/INFO]: [Aventura Triki Traka] Local backup pruning complete for "./world_the_end"
+[01:19:25] [Craft Scheduler Thread - 551 - DriveBackupV2/INFO]: [Aventura Triki Traka] Pruning local backups for "plugins"
+[01:19:25] [Craft Scheduler Thread - 551 - DriveBackupV2/INFO]: [Aventura Triki Traka] There are 1 file(s) which exceeds the local limit of 0, deleting oldest
+[01:19:25] [Craft Scheduler Thread - 551 - DriveBackupV2/INFO]: [Aventura Triki Traka] Deleted local backup "Backup-plugins-2024-12-15--01-18.zip"
+[01:19:25] [Craft Scheduler Thread - 551 - DriveBackupV2/INFO]: [Aventura Triki Traka] Local backup pruning complete for "plugins"
+[01:19:25] [Craft Scheduler Thread - 551 - DriveBackupV2/INFO]: [Aventura Triki Traka] Pruning local backups for "./world_nether"
+[01:19:25] [Craft Scheduler Thread - 551 - DriveBackupV2/INFO]: [Aventura Triki Traka] There are 1 file(s) which exceeds the local limit of 0, deleting oldest
+[01:19:25] [Craft Scheduler Thread - 551 - DriveBackupV2/INFO]: [Aventura Triki Traka] Deleted local backup "Backup-world_nether-2024-12-15--01-18.zip"
+[01:19:25] [Craft Scheduler Thread - 551 - DriveBackupV2/INFO]: [Aventura Triki Traka] Local backup pruning complete for "./world_nether"
+[01:19:25] [Craft Scheduler Thread - 551 - DriveBackupV2/INFO]: [Aventura Triki Traka] Local backup pruning complete
+[01:19:25] [Craft Scheduler Thread - 551 - DriveBackupV2/INFO]: [Aventura Triki Traka] Backup took 126 seconds to compleate
+[02:04:52] [Server console handler/ERROR]: Caught previously unhandled exception :
+java.io.IOError: java.io.IOException: Input/output error
+	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:170) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:110) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:61) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.reader.impl.LineReaderImpl.doReadBinding(LineReaderImpl.java:923) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.reader.impl.LineReaderImpl.readBinding(LineReaderImpl.java:956) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:651) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:468) ~[jline-reader-3.20.0.jar:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:158) ~[terminalconsoleappender-1.3.0.jar:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:141) ~[terminalconsoleappender-1.3.0.jar:?]
+	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:117) ~[paper-1.21.jar:1.21-38-1f5db50]
+Caused by: java.io.IOException: Input/output error
+	at java.base/java.io.FileInputStream.read0(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:231) ~[?:?]
+	at org.jline.terminal.impl.AbstractPty$PtyInputStream.read(AbstractPty.java:73) ~[jline-terminal-3.21.0.jar:?]
+	at org.jline.utils.NonBlockingInputStream.read(NonBlockingInputStream.java:62) ~[jline-terminal-3.21.0.jar:?]
+	at org.jline.utils.NonBlocking$NonBlockingInputStreamReader.read(NonBlocking.java:168) ~[jline-terminal-3.21.0.jar:?]
+	at org.jline.utils.NonBlockingReader.read(NonBlockingReader.java:57) ~[jline-terminal-3.21.0.jar:?]
+	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:160) ~[jline-reader-3.20.0.jar:?]
+	... 9 more
+[02:04:52] [Server thread/INFO]: Stopping server
+[02:04:52] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.3.0
+[02:04:52] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
+[02:04:52] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
+[02:04:52] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.10
+[02:04:52] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.21.0-dev+93-3a6fdd9
+[02:04:52] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.5.0
+[02:04:52] [Server thread/INFO]: [Minepacks] Disabling Minepacks v2.4.31.4-T20240629215752
+[02:04:53] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Shutdown initiated...
+[02:04:54] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Shutdown completed.
+[02:04:54] [Server thread/INFO]: [Minepacks]  Minepacks has been disabled.  :( 
+[02:04:54] [Server thread/INFO]: [DriveBackupV2] Disabling DriveBackupV2 v1.8.0
+[02:04:54] [Server thread/INFO]: [Aventura Triki Traka] Stopping plugin!
+[02:04:54] [Server thread/INFO]: [ItemSlotMachine] Disabling ItemSlotMachine v1.4.3
+[02:04:54] [Server thread/INFO]: [ItemSlotMachine] Version 1.4.3 disabled.
+[02:04:54] [Server thread/INFO]: [TAB] Disabling TAB v4.1.6
+[02:04:54] [Server thread/INFO]: [TAB] Disabled in 0ms
+[02:04:54] [Server thread/INFO]: [RedProtect] Disabling RedProtect v8.1.1-SNAPSHOT
+[02:04:54] [Server thread/INFO]: [RedProtect] Saving world's regions...
+[02:04:54] [Server thread/INFO]: [RedProtect] Saving world_the_end's regions...
+[02:04:54] [Server thread/INFO]: [RedProtect] Saving world_nether's regions...
+[02:04:54] [Server thread/INFO]: [RedProtect] Unregistering listeners...
+[02:04:54] [Server thread/INFO]: [RedProtect] RedProtect v8.1.1-SNAPSHOT turned off...
+[02:04:54] [Server thread/INFO]: [UltraCosmetics] Disabling UltraCosmetics v3.6.0.1-RELEASE
+[02:04:54] [Server thread/INFO]: [BetterSleeping4] Disabling BetterSleeping4 v4.0.2
+[02:04:54] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.3-SNAPSHOT (b109-49bd564)
+[02:04:54] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+93-3a6fdd9
+[02:04:54] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[02:04:54] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[02:04:54] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.134
+[02:04:54] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[02:04:54] [Server thread/INFO]: [LuckPerms] Closing storage...
+[02:04:54] [Server thread/INFO]: [LuckPerms] Goodbye!
+[02:04:54] [Server thread/INFO]: Saving players
+[02:04:54] [Server thread/INFO]: Saving worlds
+[02:04:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[02:04:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[02:04:54] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[02:04:54] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[02:04:54] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 2 entity chunks, 0 poi chunks in world 'world' in 0.04s
+[02:04:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[02:04:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[02:04:54] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[02:04:54] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[02:04:54] [Server thread/INFO]: [ChunkHolderManager] Saved 2 block chunks, 22 entity chunks, 0 poi chunks in world 'world_nether' in 0.06s
+[02:04:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[02:04:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[02:04:54] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[02:04:54] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[02:04:54] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.04s
+[02:04:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:04:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:04:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02:04:54] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

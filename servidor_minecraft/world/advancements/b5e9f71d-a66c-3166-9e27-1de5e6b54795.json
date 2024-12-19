@@ -546,10 +546,12 @@
       "minecraft:pillager": "2024-06-19 00:58:50 +0000",
       "minecraft:blaze": "2024-08-15 01:24:12 +0000",
       "minecraft:skeleton": "2024-06-15 23:12:52 +0000",
+      "minecraft:elder_guardian": "2024-12-15 00:12:02 +0000",
       "minecraft:ravager": "2024-10-27 01:39:49 +0000",
       "minecraft:bogged": "2024-07-10 01:03:39 +0000",
       "minecraft:ghast": "2024-08-15 01:19:38 +0000",
       "minecraft:hoglin": "2024-09-01 00:03:30 +0000",
+      "minecraft:guardian": "2024-12-15 00:10:32 +0000",
       "minecraft:breeze": "2024-07-03 02:02:43 +0000",
       "minecraft:vindicator": "2024-10-27 01:34:36 +0000",
       "minecraft:magma_cube": "2024-08-15 01:22:19 +0000",
@@ -852,6 +854,8 @@
       "golden_apple": "2024-07-24 01:05:21 +0000",
       "honey_bottle": "2024-07-07 01:58:36 +0000",
       "rotten_flesh": "2024-06-26 00:47:37 +0000",
+      "suspicious_stew": "2024-12-08 00:52:15 +0000",
+      "cookie": "2024-12-15 00:02:57 +0000",
       "cooked_mutton": "2024-06-15 23:20:03 +0000",
       "sweet_berries": "2024-06-16 00:07:24 +0000",
       "cooked_beef": "2024-06-16 00:57:05 +0000",
@@ -5117,6 +5121,78 @@
   "minecraft:adventure/trim_with_any_armor_pattern": {
     "criteria": {
       "armor_trimmed_minecraft:silence_armor_trim_smithing_template_smithing_trim": "2024-11-27 02:25:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/fishy_business": {
+    "criteria": {
+      "salmon": "2024-12-07 23:17:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
+    "criteria": {
+      "has_cod": "2024-12-07 23:19:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2024-12-07 23:19:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2024-12-07 23:19:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal_from_blasting_coal_ore": {
+    "criteria": {
+      "has_coal_ore": "2024-12-08 01:30:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal_from_smelting_coal_ore": {
+    "criteria": {
+      "has_coal_ore": "2024-12-08 01:30:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2024-12-15 00:12:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sponge": {
+    "criteria": {
+      "has_wet_sponge": "2024-12-15 00:12:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/tide_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2024-12-15 00:37:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_bricks": {
+    "criteria": {
+      "has_prismarine_shard": "2024-12-15 00:12:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2024-12-15 00:12:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/tide_armor_trim_smithing_template": {
+    "criteria": {
+      "has_tide_armor_trim_smithing_template": "2024-12-15 00:37:54 +0000"
     },
     "done": true
   },
